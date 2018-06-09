@@ -1,34 +1,48 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
   <!--=========== Main menu ==========-->
-  <CreateWorld>Stwórz świat</CreateWorld>
+  <Tutorial>Samouczek</Tutorial>
   <NewColony>Nowa kolonia</NewColony>
   <BackToGame>Wróć do gry</BackToGame>
+  <ReviewScenario>Zobacz scenariusz</ReviewScenario>
   <Save>Zapisz</Save>
-  <Load>Wczytaj</Load>
+  <LoadGame>Wczytaj</LoadGame>
   <Options>Opcje</Options>
   <Mods>Modyfikacje</Mods>
   <Credits>Autorzy</Credits>
   <QuitToMainMenu>Wróć do menu</QuitToMainMenu>
-  <QuitToOS>Wyjście z gry</QuitToOS>
-  <FictionPrimer>Info o świecie</FictionPrimer>
+  <SaveAndQuitToMainMenu>Zapisz i przejdź do menu</SaveAndQuitToMainMenu>
+  <QuitToOS>Wyjdź z gry</QuitToOS>
+  <SaveAndQuitToOS>Zapisz i wyjdź z gry</SaveAndQuitToOS>
+  <FictionPrimer>Informacje o świecie</FictionPrimer>
   <LudeonBlog>Blog Ludeon</LudeonBlog>
   <Forums>Forum</Forums>
   <OfficialWiki>Oficjalna wiki</OfficialWiki>
-  <TynansTwitter>Twitter Tynan'a</TynansTwitter>
-  <TynansDesignBook>Książka Tynan'a</TynansDesignBook>
+  <TynansTwitter>Twitter Tynana</TynansTwitter>
+  <TynansDesignBook>Książka Tynana</TynansDesignBook>
   <HelpTranslate>Pomóż tłumaczyć RimWorld</HelpTranslate>
- 
-    <!--=========== Create/review world ================-->
-  <ReviewWorld>Mapa świata</ReviewWorld>
+  <BuySoundtrack>Ścieżka dźwiękowa</BuySoundtrack>
+  <CreateWorld>Stwórz świat</CreateWorld>
+
+  <!--=========== Create/review world ================-->
+  <ReviewWorld>Przejrzyj świat</ReviewWorld>
   <WorldGenerate>Twórz</WorldGenerate>
   <WorldSaveAndFinish>Zapisz i zakończ</WorldSaveAndFinish>
   <Reset>Resetuj</Reset>
-  <WorldSize>Wielkość</WorldSize>
+  <PlanetCoverage>Stopień pokrycia</PlanetCoverage>
+  <PlanetRainfall>Suma opadów</PlanetRainfall>
+  <PlanetTemperature>Amplituda temperatur</PlanetTemperature>
+  <PlanetRainfall_Low>Niska</PlanetRainfall_Low>
+  <PlanetRainfall_Normal>Normalna</PlanetRainfall_Normal>
+  <PlanetRainfall_High>Wysoka</PlanetRainfall_High>
+  <PlanetTemperature_Low>Niska</PlanetTemperature_Low>
+  <PlanetTemperature_Normal>Normalna</PlanetTemperature_Normal>
+  <PlanetTemperature_High>Wysoka</PlanetTemperature_High>
   <WorldSeed>Ziarno</WorldSeed>
   <RandomizeSeed>Losuj ziarno</RandomizeSeed>
-
+  <PlanetCoverageTip>Planeta ma zawsze tę samą średnicę, ale odkąd jest znacznie większa niż obszar potrzebny do gry, nie generujemy całej jej powierzchni, ponieważ zajęło by to bardzo dużo czasu. Cecha ta określa, jaki procent powierzchni planety ma zostać wygenerowany.</PlanetCoverageTip>
+  <WorldFactionsTab>Frakcje</WorldFactionsTab>
 
   <!--=========== Select world ===================-->
   <SelectWorld>Wybierz świat</SelectWorld>
@@ -36,102 +50,140 @@
   <NoWorldsFilesFound>Nie znaleziono plików świata. Najpierw stwórz świat.</NoWorldsFilesFound>
   
   <!--=========== Version info ==========--> 
-  <BuildNowAvailable>Wersja {0} jest dostępna. Powinieneś ją pobrać.</BuildNowAvailable>
-	<BuildUpToDate>Wersja jest aktualna.</BuildUpToDate>
-	<ErrorGettingVersionInfo>Błąd podczas ustalenia wersji: {0}</ErrorGettingVersionInfo>
-	<LoadingVersionInfo>Ładowanie wersji...</LoadingVersionInfo>
-	
+  <BuildNowAvailable>Wersja {0} jest dostępna. Zobacz ludeon.com aby uzyskać więcej informacji.</BuildNowAvailable>
+  <BuildUpToDate>Wersja jest aktualna.</BuildUpToDate>
+  <ErrorGettingVersionInfo>Błąd podczas sprawdzania wersji: {0}</ErrorGettingVersionInfo>
+  <LoadingVersionInfo>Wczytywanie informacji o wersji...</LoadingVersionInfo>
+
   <!--=========== World generator =========-->
   <GenerateWorld>Twórz świat</GenerateWorld>
   
   <!--=========== Mods screen ==========--> 
-  <OpenSteamWorkshop>Otwórz Steam Workshop</OpenSteamWorkshop>
-  <GetModsFromForum>Pobierz mody z forum</GetModsFromForum>
-  <OpenModsDataFolder>Otwórz folder z modami</OpenModsDataFolder>
+  <OpenSteamWorkshop>Otwórz Warsztat Steam</OpenSteamWorkshop>
+  <GetModsFromForum>Pobierz modyfikacje z forum</GetModsFromForum>
+  <OpenModsDataFolder>Otwórz folder z modyfikacjami</OpenModsDataFolder>
   <ConfirmDisableCoreMod>Czy jesteś pewien, że chcesz wyłączyć zawartość podstawową? Gra nie będzie działać prawidłowo, jeśli nie jest uruchomiona inna modyfikacja zawierająca wszystkie główne funkcje.\n\nPamiętaj, że inne modyfikacje mogą nadpisywać podstawową zawartość, zwyczajnie używając defName.</ConfirmDisableCoreMod>
   <ConfirmDeleteMod>Czy na pewno chcesz usunąć całą zawartość {0}?</ConfirmDeleteMod>
   <Unsubscribe>Zrezygnuj z subskrypcji</Unsubscribe>
   <ConfirmUnsubscribe>Czy na pewno chcesz zrezygnować z subskrypcji {0}?</ConfirmUnsubscribe>
   <Author>Autor</Author>
-  <WorkshopPage>Strona Steam Workshop</WorkshopPage>
-  <UploadToSteamWorkshop>Wgraj na Steam Workshop</UploadToSteamWorkshop>
-  <UpdateOnSteamWorkshop>Aktualizuj na Steam Workshop</UpdateOnSteamWorkshop>
-  <UploadAlreadyInProgress>Aktualizacja w toku.</UploadAlreadyInProgress>
-  <WorkshopSubmissionFailed>Zgłoszenie do Workshop nie udało się.\n\nPowód: {0}</WorkshopSubmissionFailed>
-  <YouAgreeToSteamWorkshopLegal>Zgłaszając ten mod do Steam Workshop akceptujesz warunki umowy. Kliknij tutaj po więcej informacji.</YouAgreeToSteamWorkshopLegal>
-  <WorkshopUploadSucceeded>Aktualizacja {0} powiodła się.</WorkshopUploadSucceeded>
-  <DownloadingMod>Pobieranie {0}</DownloadingMod>
+  <WorkshopPage>Strona Warsztatu Steam</WorkshopPage>
+  <UploadToSteamWorkshop>Wyślij na Warsztat Steam</UploadToSteamWorkshop>
+  <UpdateOnSteamWorkshop>Aktualizuj w Warsztacie Steam</UpdateOnSteamWorkshop>
+  <UploadAlreadyInProgress>Wysyłanie w toku.</UploadAlreadyInProgress>
+  <WorkshopSubmissionFailed>Wysłanie do Warsztatu nie udało się.\n\nPowód: {0}.</WorkshopSubmissionFailed>
+  <WorkshopUploadSucceeded>Wysyłanie {0} powiodło się.</WorkshopUploadSucceeded>
+  <Downloading>Pobieranie</Downloading>
+  <Source>Źródło</Source>
+  <ModTargetVersion>Dla wersji: {0}</ModTargetVersion>
+  <ModNotMadeForThisVersion>Ta modyfikacja nie była stworzony dla tej wersji gry, może nie działać poprawnie.</ModNotMadeForThisVersion>
+  <MessageModNeedsWellFormattedTargetVersion>Modyfikacje potrzebują dobrze określonej wersji gry w pliku About.xml. Np. &lt;targetVersion&gt;{0}&lt;/targetVersion&gt;.</MessageModNeedsWellFormattedTargetVersion>
+  <DragToReorder>Przeciągnij, aby przestawić.</DragToReorder>
+  
+  <!--=========== Select scenario =============-->
+  <ChooseScenario>Wybierz scenariusz</ChooseScenario>
+  <ScenariosCustom>Własny</ScenariosCustom>
+  <ScenariosSteamWorkshop>Warsztat Steam</ScenariosSteamWorkshop>
+  <ScenarioEditor>Edytor scenariusza</ScenarioEditor>
+  <Delete>Usuń</Delete>
+  
+  <!--============ Scenario editor ===============-->
+  <Seed>ziarno</Seed>
+  <Load>Wczytaj</Load>
+  <EditMode>tryb edycji</EditMode>
+  <Summary>Podsumowanie</Summary>
+  <AddPart>Dodaj element</AddPart>
+  <TextFieldsMustBeFilled>Wszystkie pola tekstowe muszą być wypełnione.</TextFieldsMustBeFilled>
+  <ConfirmSteamWorkshopUpload>Czy jesteś pewien, że chcesz wgrać to do Warsztatu Steam?\n\nMusisz zaakceptować umowę użytkownika Steam. Pełny regulamin znajdziesz tutaj:\n\nhttp://steamcommunity.com/sharedfiles/workshoplegalagreement</ConfirmSteamWorkshopUpload>
+  <ConfirmContentAuthor>Powinieneś dodawać jedynie zawartość stworzoną przez Ciebie.\n\nCzy stworzyłeś tę zawartość osobiście?</ConfirmContentAuthor>
+  <Incompatible>Niekompatybilne</Incompatible>
+  <TooMany>Za dużo (max. {0}): </TooMany>
+  <CanBeUpdatedOnWorkshop>Możesz wgrać do Warsztatu Steam, ponieważ jesteś autorem.</CanBeUpdatedOnWorkshop>
   
   <!--=========== Select storyteller ==========-->
   <ChooseAIStoryteller>Wybierz swojego pisarza SI</ChooseAIStoryteller>
-  <HowStorytellersWork>Pisarz SI tworzy zdarzenia takie jak atak piratów, zrzut surowców czy atak zwierząt. Jego wybór ma wpływ na twoją kolonię.</HowStorytellersWork>
-  <MustChooseDifficulty>Proszę wybrać poziom trudności.</MustChooseChallengeScale>
+  <HowStorytellersWork>Pisarz SI tworzy zdarzenia takie jak atak piratów, zrzut surowców czy atak zwierząt. Jego wybór ma wpływ na twoją kolonię. Ustawienia te możesz zmienić w każdym momencie.</HowStorytellersWork>  
+  <MustChooseDifficulty>Wybierz poziom trudności.</MustChooseDifficulty> 
   <Difficulty>Poziom trudności</Difficulty>
 
   <!--=========== Landing site select =========-->
   <SelectLandingSite>Wybierz miejsce zrzutu</SelectLandingSite>
   <SelectRandomSite>Wybierz losowe miejsce</SelectRandomSite>
-  <SelectSite>Dalej</SelectSite>
+  <SelectSite>Wybierz miejsce</SelectSite>
   <MustSelectLandingSite>Proszę wybrać miejsce zrzutu.</MustSelectLandingSite>
-  <CannotLandBiome>Nie możesz wylądować w tej strefie klimatycznej: {0}</CannotLandBiome>
-  <WorldRenderMode>Tryb</WorldRenderMode>
-  <WorldRenderModeFull>Pełny</WorldRenderModeFull>
-  <WorldRenderModeTemperature>Temperatura</WorldRenderModeTemperature>
-  <WorldRenderModeElevation>Wysokość</WorldRenderModeElevation>
-  <WorldRenderModeFertility>Żyzność</WorldRenderModeFertility>
-  <WorldRenderModeRainfall>Opad deszczu</WorldRenderModeRainfall>
-  <WorldRenderModeBiomes>Strefa</WorldRenderModeBiomes>
-  <BiomeNotImplemented>Klimat nie zaimplementowany</BiomeNotImplemented>
+  <CannotLandBiome>Nie możesz wylądować w tej strefie klimatycznej: {0}.</CannotLandBiome>
+  <BiomeNotImplemented>Klimat niezaimplementowany</BiomeNotImplemented>
+  <CannotLandImpassableMountains>Nie możesz wylądować na nieprzemierzalnych górach.</CannotLandImpassableMountains>  
   <BaseAlreadyThere>{0} już mają tam bazę.</BaseAlreadyThere>
+  <YourBaseAlreadyThere>Masz już tutaj swoją bazę.</YourBaseAlreadyThere>
+  <TileOccupied>Ta komórka jest już zajęta.</TileOccupied>
+  <FactionBaseAdjacent>Osady nie mogą być tworzone bezpośrednio przy sobie.</FactionBaseAdjacent>
   <Biome>Klimat</Biome>
   <Terrain>Teren</Terrain>
+  <Road>Droga</Road>
+  <River>Rzeka</River>
   <Elevation>Wysokość</Elevation>
   <Fertility>Żyzność</Fertility>
-  <AvgTemp>Średnia temp.</AvgTemp>
-  <AvgJanTemp>Średnia temp (Styczeń): {0}</AvgJanTemp>
-  <AvgJulTemp>Średnia temp (Lipiec): {0}</AvgJulTemp>
-  <Rainfall>Opad deszczu</Rainfall>
-  <HasCoast0>Północne wybrzeże</HasCoast0>
-  <HasCoast1>Wschodnie wybrzeże</HasCoast1>
-  <HasCoast2>Południowe wybrzeże</HasCoast2>
-  <HasCoast3>Zachodnie wybrzeże</HasCoast3>
-  <FactionBase>Osada</FactionBase>
+  <AvgTemp>Średnia temperatura</AvgTemp>
+  <AvgWinterTemp>Temperatura w zimie:</AvgWinterTemp>
+  <AvgSummerTemp>Temperatura w lecie:</AvgSummerTemp>
+  <Rainfall>Opady</Rainfall>
+  <SpecialFeatures>Specialne funkcje</SpecialFeatures>
+  <HasCoast0>północne wybrzeże</HasCoast0>
+  <HasCoast1>wschodnie wybrzeże</HasCoast1>
+  <HasCoast2>południowe wybrzeże</HasCoast2>
+  <HasCoast3>zachodnie wybrzeże</HasCoast3>
+  <HasCaves>jaskinie</HasCaves>
+  <FactionBase>Baza frakcji</FactionBase>
   <StoneTypesHere>Rodzaje skał</StoneTypesHere>
+  <TimeZone>Strefa czasowa</TimeZone>
+  <MovementTimeNow>Obecny czas poruszania</MovementTimeNow>
+  <MovementTimeSummer>Czas poruszania w lecie</MovementTimeSummer>
+  <MovementTimeWinter>Czas poruszania w zimie</MovementTimeWinter>
+  <AnimalsCanGrazeNow>Zwierzęta mogą się teraz paść.</AnimalsCanGrazeNow>
+  <AverageDiseaseFrequency>Średnia częstotliwość chorób</AverageDiseaseFrequency>
+  <PerYear>rocznie</PerYear>
+
   
-  
-   <!--=========== Character chooser ==========-->
+  <!--=========== Character chooser ==========-->
   <CreateCharacters>Stwórz postacie</CreateCharacters>
-  <FirstNameDesc>Pierwsze imię postaci.\n\nWyświetlane tylko w wybranych miejscach.</FirstNameDesc>
-  <ShortIdentifierDesc>Krótkie określenie postaci.\n\nJest ono pokazywane przez cały czas. Może być imieniem, nazwiskiem lub kompletnie odrębnym pseudonimem.</ShortIdentifierDesc>
+  <FirstNameDesc>Imię postaci.\n\nWyświetlane tylko w wybranych miejscach.</FirstNameDesc>
+  <ShortIdentifierDesc>Krótkie określenie postaci.\n\nJest ono pokazywane przez cały czas. Może być imieniem, nazwiskiem lub pseudonimem.</ShortIdentifierDesc>
   <LastNameDesc>Nazwisko postaci.\n\nWyświetlane tylko w wybranych miejscach.</LastNameDesc>
   <Randomize>Losuj</Randomize>
   <AgeIndicator>wiek {0}</AgeIndicator>
   <Backstory>Historia</Backstory>
-  <IncapableOf>Niezdolny do wykonywania</IncapableOf>
+  <IncapableOf>Niezdolny do</IncapableOf>
   <Traits>Cechy</Traits>
   <PermanentMoodEffect>Stały efekt nastroju</PermanentMoodEffect>
   <Skills>Umiejętności</Skills>
-  <NoneLower>Brak</NoneLower>
+  <NoneLower>brak</NoneLower>
   <Adulthood>Dorosłość</Adulthood>
   <Childhood>Dzieciństwo</Childhood>
-  <Male>Mężczyzna</Male>
-  <Female>Kobieta</Female>
+  <Male>mężczyzna</Male>
+  <Female>kobieta</Female>
   <Pain>Ból</Pain>
- 
-
- <!--=========== Misc ==========-->
-  <Start>Start</Start>
+  <Health>Zdrowie</Health>
+  <Relations>Relacje</Relations>
+  <TeamSkills>Umiejętności grupy</TeamSkills>
+  <StartingPawnsSelected>Wybrane</StartingPawnsSelected>
+  <StartingPawnsLeftBehind>Pozostawione</StartingPawnsLeftBehind>
+  
+  <!--=========== Misc ==========-->
+  <Start>Rozpocznij</Start>
   <Advanced>Zaawansowane</Advanced>
   <Next>Dalej</Next>
   <Back>Wstecz</Back>
-
   <Gameplay>Rozgrywka</Gameplay>
- 
   <ConfirmQuit>Czy na pewno chcesz wyjść z gry? Stracisz niezapisany postęp.</ConfirmQuit>
-  
   <EveryoneNeedsValidName>Każda postać musi posiadać poprawne imię.</EveryoneNeedsValidName>
+  <Quit>Wyjdź</Quit>
+  <Ignore>Zignoruj</Ignore>
 
-  <GeneratingWorld>Tworzenie świata...</GeneratingWorld>
-  <GeneratingMap>Tworzenie mapy...</GeneratingMap>
+  <!--============ Progress bar==============-->
+  <GeneratingWorld>Generowanie świata</GeneratingWorld>
+  <GeneratingPlanet>Generowanie planety</GeneratingPlanet>
+  <GeneratingMap>Generowanie mapy</GeneratingMap>
+  <GeneratingMapForNewEncounter>Generowanie mapy do nowego spotkania</GeneratingMapForNewEncounter>
   
 </LanguageData>

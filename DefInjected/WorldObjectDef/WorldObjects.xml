@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Caravan.label>karawana</Caravan.label>
+  <Caravan.description>Grupa podróżujących osób.</Caravan.description>
+
+  <FactionBase.label>baza frakcji</FactionBase.label>
+  <FactionBase.description>Baza jednej z frakcji.</FactionBase.description>
+
+  <AbandonedFactionBase.label>opuszczona baza frakcji</AbandonedFactionBase.label>
+  <AbandonedFactionBase.description>Opuszczona baza jednej z frakcji.</AbandonedFactionBase.description>
+
+  <DestroyedFactionBase.label>zniszczona baza frakcji</DestroyedFactionBase.label>
+  <DestroyedFactionBase.description>Zniszczona baza jednej z frakcji.</DestroyedFactionBase.description>
+
+  <EscapeShip.label>statek</EscapeShip.label>
+  <EscapeShip.description>Lokacja ukrytego statku, który może ci pomóc w ucieczce z planety.</EscapeShip.description>
+
+  <AttackedCaravan.label>zaatakowana karawana</AttackedCaravan.label>
+  <AttackedCaravan.description>Karawana, która została zaatakowana.</AttackedCaravan.description>
+
+  <TravelingTransportPods.label>kapsuły transportowe</TravelingTransportPods.label>
+  <TravelingTransportPods.description>Kapsuły transportowe w locie.</TravelingTransportPods.description>
+
+  <RoutePlannerWaypoint.label>punkt orientacyjny</RoutePlannerWaypoint.label>
+  <RoutePlannerWaypoint.description>Tymczasowy punkt orientacyjny.</RoutePlannerWaypoint.description>
+
+  <PeaceTalks.label>rozmowy pokojowe</PeaceTalks.label>
+  <PeaceTalks.description>Wyznaczone miejsce dla rozmów pokojowych.</PeaceTalks.description>
+
+  
+</LanguageData>

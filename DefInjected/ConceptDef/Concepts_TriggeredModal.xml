@@ -1,10 +1,19 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <TradeGoodsMustBeNearBeacon.helpTexts.0>Aby wysłać przedmioty lub srebro handlarzom orbitalnym, musisz wybudować na zewnątrz, NADAJNIK HANDLU ORBITALNEGO i umieścić w jego pobliżu składowisko.</TradeGoodsMustBeNearBeacon.helpTexts.0>
+  <!-- Concepts taught in modal dialogs -->
   
-  <ArrestingCreatesEnemies.helpTexts.0>Osoba którą próbujesz zaaresztować może nie poddać się dobrowolnie. \n\n\Jeśli zaaresztujesz kogoś spoza kolonii jego cała frakcja stanie się twoim wrogiem.</ArrestingCreatesEnemies.helpTexts.0>
+  <TradeGoodsMustBeNearBeacon.label>Wymiana dóbr i informacji</TradeGoodsMustBeNearBeacon.label>
+  <TradeGoodsMustBeNearBeacon.helpText>Aby wysłać przedmioty lub srebro handlarzom orbitalnym, musisz wybudować na zewnątrz nadajnik handlu orbitalnego i umieścić w jego pobliżu składowisko.</TradeGoodsMustBeNearBeacon.helpText>
   
-  <SwitchFlickingDesignation.helpTexts.0>To tylko sprawia że kolonista musi przełączyć przełącznik. \n\n\Nic się nie stanie dopóki kolonista ze specjalnośćią PRZEŁĄCZANIE nie przyjdzie i nie przełączy przełącznika ręcznie </SwitchFlickingDesignation.helpTexts.0>
+  <ArrestingCreatesEnemies.label>Aresztowanie pogarsza relacje między frakcjami</ArrestingCreatesEnemies.label>
+  <ArrestingCreatesEnemies.helpText>Uwaga: osoba, którą próbujesz zaaresztować, może nie poddać się dobrowolnie. \n\nJeśli zaaresztujesz kogoś spoza kolonii, cała jego frakcja stanie się twoim wrogiem.</ArrestingCreatesEnemies.helpText>
+ 
+  <SwitchFlickingDesignation.label>Nakaz przełączenia to tylko nakaz</SwitchFlickingDesignation.label> 
+  <SwitchFlickingDesignation.helpText>To tylko sprawia, że kolonista musi użyć przełącznik. \n\nNic się nie stanie, dopóki kolonista ze specjalnością "przełączanie" nie przyjdzie i nie użyje przełącznika ręcznie.</SwitchFlickingDesignation.helpText>
+  
+  <MaxNumberOfPlayerHomes.label>Maksymalna liczba kolonii gracza</MaxNumberOfPlayerHomes.label>
+  <MaxNumberOfPlayerHomes.helpText>Uwaga: RimWorld jest zaprojektowany do gry jedną kolonią w danym momencie. Chociaż jest możliwe posiadanie ich większej ilości, może to spowodować spowolnienia i niezbalansowanie rozgrywki. Zalecamy - przynajmniej na początku - grać z maksymalnie jedną kolonią.</MaxNumberOfPlayerHomes.helpText>
+
   
 </LanguageData>

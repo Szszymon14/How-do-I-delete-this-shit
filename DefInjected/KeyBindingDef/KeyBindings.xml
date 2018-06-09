@@ -1,59 +1,77 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
-	<!-- In-game camera -->
 
-	<MapDollyUp.label>W górę</MapDollyUp.label>
-	<MapDollyDown.label>W dół</MapDollyDown.label>
-	<MapDollyLeft.label>W lewo</MapDollyLeft.label>
-	<MapDollyRight.label>W prawo</MapDollyRight.label>
-	<MapZoomIn.label>Zbliżenie</MapZoomIn.label>
-	<MapZoomOut.label>Oddalanie</MapZoomOut.label>
+  <!-- In-game camera -->
 
-	<!-- Map play -->
- 	
-	<TakeScreenshot.label>Zrzut ekranu</TakeScreenshot.label>
-	<ToggleScreenshotMode.label>Wyświetlanie informacji(HUD)</ToggleScreenshotMode.label>
-	<SelectNextInCell.label>Następny w komórce</SelectNextInCell.label>
-	<TogglePause.label>Pauza</TogglePause.label>
-	<TimeSpeedNormal.label>Czas: normalny</TimeSpeedNormal.label>
-	<TimeSpeedFast.label>Czas: szybko</TimeSpeedFast.label>
-	<TimeSpeedSuperfast.label>Czas: super szybko</TimeSpeedSuperfast.label>
-	<TimeSpeedUltrafast.label>Czas: ultra szybko</TimeSpeedUltrafast.label>
-	<PreviousColonist.label>Poprzedni kolonista</PreviousColonist.label>
-	<NextColonist.label>Następny kolonista</NextColonist.label>
-	
-	<!-- Misc (re-used) -->
+  <MapDollyUp.label>w górę</MapDollyUp.label>
+  <MapDollyDown.label>w dół</MapDollyDown.label>
+  <MapDollyLeft.label>w lewo</MapDollyLeft.label>
+  <MapDollyRight.label>w prawo</MapDollyRight.label>
+  <MapZoomIn.label>zbliżenie</MapZoomIn.label>
+  <MapZoomOut.label>oddalenie</MapZoomOut.label>
+
+
+  <!-- Map play -->
+
+  <TakeScreenshot.label>zrzut ekranu</TakeScreenshot.label> 
+  <ToggleScreenshotMode.label>tryb zrzutu ekranu</ToggleScreenshotMode.label>
+  <SelectNextInCell.label>następny w komórce</SelectNextInCell.label>
+  <TogglePause.label>pauza/wznów</TogglePause.label>
+  <TimeSpeedNormal.label>czas: normalny</TimeSpeedNormal.label>
+  <TimeSpeedFast.label>czas: szybki</TimeSpeedFast.label>
+  <TimeSpeedSuperfast.label>czas: superszybki</TimeSpeedSuperfast.label>
+  <TimeSpeedUltrafast.label>czas: ultraszybki (debug)</TimeSpeedUltrafast.label>
+  <PreviousColonist.label>poprzedni kolonista</PreviousColonist.label>
+  <NextColonist.label>następny kolonista</NextColonist.label>
+
+
+  <!-- Misc (re-used) -->
+
+  <Misc1.label>Różne 1</Misc1.label> 
+  <Misc2.label>Różne 2</Misc2.label>  
+  <Misc3.label>Różne 3</Misc3.label>  
+  <Misc4.label>Różne 4</Misc4.label>  
+  <Misc5.label>Różne 5</Misc5.label>  
+  <Misc6.label>Różne 6</Misc6.label>  
+  <Misc7.label>Różne 7</Misc7.label>  
+  <Misc8.label>Różne 8</Misc8.label>  
+  <Misc9.label>Różne 9</Misc9.label>  
+  <Misc10.label>Różne 10</Misc10.label>  
+  <Misc11.label>Różne 11</Misc11.label>  
+  <Misc12.label>Różne 12</Misc12.label>
+
+
+  <!-- Selection special -->
   
-	<Misc1.label>Klawisz skrótu  1</Misc1.label>
-	<Misc2.label>Klawisz skrótu 2</Misc2.label>
-	<Misc3.label>Klawisz skrótu 3</Misc3.label>
-	<Misc4.label>Klawisz skrótu 4</Misc4.label>
-	<Misc5.label>Klawisz skrótu 5</Misc5.label>
-	<Misc6.label>Klawisz skrótu 6</Misc6.label>
-	<Misc7.label>Klawisz skrótu 7</Misc7.label>
-	<Misc8.label>Klawisz skrótu 8</Misc8.label>
-	<Misc9.label>Klawisz skrótu 9</Misc9.label>
-	<Misc10.label>Klawisz skrótu 10</Misc10.label>
-	<Misc11.label>Klawisz skrótu 11</Misc11.label>
-	<Misc12.label>Klawisz skrótu 12</Misc12.label>
-  
-	<!-- Selection special -->
-  
-	<CommandTogglePower.label>Zasilanie</CommandTogglePower.label>
-	<CommandItemForbid.label>Zabroń</CommandItemForbid.label>
-	<CommandColonistDraft.label>Służba</CommandColonistDraft.label>
-	
-	<!-- Architect: Common -->
-  
-	<DesignatorCancel.label>Anuluj</DesignatorCancel.label>
-	<DesignatorDeconstruct.label>Rozbierz</DesignatorDeconstruct.label>
-	<DesignatorRotateLeft.label>Obróć w lewo</DesignatorRotateLeft.label>
-	<DesignatorRotateRight.label>Obróć w prawo</DesignatorRotateRight.label>
-	
+  <CommandTogglePower.label>zasilanie</CommandTogglePower.label>  
+  <CommandItemForbid.label>zabroń</CommandItemForbid.label>
+  <CommandColonistDraft.label>służba</CommandColonistDraft.label>
+ 
+
+  <!-- Architect: Common -->
+
+  <DesignatorCancel.label>anuluj</DesignatorCancel.label>
+  <DesignatorDeconstruct.label>rozbierz</DesignatorDeconstruct.label>
+  <DesignatorRotateLeft.label>obróć w lewo</DesignatorRotateLeft.label>
+  <DesignatorRotateRight.label>obróć w prawo</DesignatorRotateRight.label> 
+ 
+
+  <!-- Modifiers -->
+
+  <ModifierIncrement10x.label>zwiększ 10x</ModifierIncrement10x.label> 
+  <ModifierIncrement100x.label>zwiększ 100x</ModifierIncrement100x.label>
+  <QueueOrder.label>kolejkuj zadanie</QueueOrder.label>
+
+
   <!-- Debug -->
+
+  <TickOnce.label>o jeden tick</TickOnce.label>
+  <ToggleGodMode.label>tryb boga</ToggleGodMode.label>
+  <ToggleDebugLog.label>debug log</ToggleDebugLog.label>
+  <ToggleDebugActionsMenu.label>menu debugowania akcji</ToggleDebugActionsMenu.label>
+  <ToggleDebugLogMenu.label>menu dziennika debugowania</ToggleDebugLogMenu.label>
+  <ToggleDebugInspector.label>menu inspektora</ToggleDebugInspector.label>
+  <ToggleDebugSettingsMenu.label>menu ustawienia debugowania</ToggleDebugSettingsMenu.label>
+
   
-	<ToggleLog.label>Logowanies</ToggleLog.label>
-	<DebugTickOnce.label>Debugowanie: jeden krok</DebugTickOnce.label>
-  
-	
 </LanguageData>

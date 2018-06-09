@@ -1,6 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
+
+  <BeetleLike.label>chrząszczopodobny</BeetleLike.label>	
+  <BeetleLikeWithClaw.label>chrząszczopodobny z pazurem</BeetleLikeWithClaw.label>
+
 	
-	<BeetleLike.label>Stawonóg</BeetleLike.label>
-		
 </LanguageData>

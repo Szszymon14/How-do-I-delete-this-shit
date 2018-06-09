@@ -1,0 +1,8 @@
+poker
+szachy
+karty
+backgammon
+gra w kości
+craps
+ruletka
+blackjack

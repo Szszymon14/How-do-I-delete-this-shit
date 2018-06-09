@@ -1,20 +1,23 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
-	
-	<Deterioration.label>Pogorszenie</Deterioration.label>
-	
-	<Mining.label>Górnictwo</Mining.label>
-	
-	<Rotting.label>Gnicie</Rotting.label>
-	
-	<Extinguish.label>Gaszenie</Extinguish.label>
-	
-  <!-- Stun -->
   
-	<Stun.label>Ogłuszenie</Stun.label>
-	<Stun.deathMessage>{0} zmarł w wyniku ogłuszenia.</Stun.deathMessage>
-	
-	<EMP.label>IEM</EMP.label>
-	<EMP.deathMessage>{0} został zabity przez impuls elektromagnetyczny.</EMP.deathMessage>
-	
+  <Deterioration.label>pogorszenie</Deterioration.label>
+  <Deterioration.deathMessage>{0} został zabity.</Deterioration.deathMessage>
+  
+  <Mining.label>górnictwo</Mining.label>
+  <Mining.deathMessage>{0} został zabity.</Mining.deathMessage>
+  
+  <Rotting.label>gnicie</Rotting.label>
+  <Rotting.deathMessage>{0} został zabity.</Rotting.deathMessage>
+  
+  <Extinguish.label>gaszenie</Extinguish.label>
+  <Extinguish.deathMessage>{0} został zabity.</Extinguish.deathMessage>
+  
+  <Bomb.label>bomb</Bomb.label>
+  <Bomb.deathMessage>{0} zmarł w wyniku eksplozji.</Bomb.deathMessage> 
+ 
+  <Smoke.label>palenie</Smoke.label>
+  <Smoke.deathMessage>{0} został zabity.</Smoke.deathMessage>
+  
+  
 </LanguageData>

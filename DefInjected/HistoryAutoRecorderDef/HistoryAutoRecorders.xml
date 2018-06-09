@@ -1,17 +1,23 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
+    
+  <WealthTotal.label>majątek (łącznie)</WealthTotal.label>
+  <WealthTotal.graphLabelY>Ilość</WealthTotal.graphLabelY>
+    
+  <WealthItems.label>majątek (przedmioty)</WealthItems.label>
+  <WealthItems.graphLabelY>Ilość</WealthItems.graphLabelY>
 
-    <WealthTotal.label>Majątek (łącznie)</WealthTotal.label>
-	
-    <WealthItems.label>Majątek (przedmioty)</WealthItems.label>
-	
-    <WealthBuildings.label>Majątek (budynki)</WealthBuildings.label>
+  <WealthBuildings.label>majątek (budynki)</WealthBuildings.label>
+  <WealthBuildings.graphLabelY>Ilość</WealthBuildings.graphLabelY>
+  
+  <FreeColonists.label>wolni koloniści</FreeColonists.label>
+  <FreeColonists.graphLabelY>Koloniści</FreeColonists.graphLabelY>
+    
+  <Prisoners.label>więźniowie</Prisoners.label>
+  <Prisoners.graphLabelY>Więźniowie</Prisoners.graphLabelY>
+   
+  <ColonistMood.label>nastrój</ColonistMood.label>
+  <ColonistMood.graphLabelY>Procent</ColonistMood.graphLabelY>
 
-    <FreeColonists.label>Wolni koloniści</FreeColonists.label>
-
-	<Prisoners.label>Więźniowie</Prisoners.label>
-	
-    <ColonistMood.label>Lojalność</ColonistMood.label>
-
-	
+  
 </LanguageData>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <PlantTreeWillow.label>wierzba</PlantTreeWillow.label>
+  <PlantTreeWillow.description>Jedno z najszybciej rosnących drzew zacieniających, zapewniające piękny, gęsty, liściasty baldachim. Nie daje dużo drewna.</PlantTreeWillow.description>
+
+  <PlantTreeCypress.label>drzewo cyprysowe</PlantTreeCypress.label>
+  <PlantTreeCypress.description>Wysokie, powoli rosnące drzewo, spotykane zazwyczaj na bagnach. Pomimo tempa wzrostu, sadzenie może być opłacalne, ponieważ dają one dużo drewna.</PlantTreeCypress.description>
+
+  <PlantTreeMaple.label>klon</PlantTreeMaple.label>
+  <PlantTreeMaple.description>Powszechne drzewo średniej wielkości. Często występuje na bagnach i w wilgotnym terenie.</PlantTreeMaple.description>
+
+  <PlantChokevine.label>dławibluszcz</PlantChokevine.label>
+  <PlantChokevine.description>Gęsty krzew, który spowalnia każdego, kto się w nim porusza.</PlantChokevine.description>
+
+
+</LanguageData>

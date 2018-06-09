@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageInfo>
   <friendlyNameNative>Polski</friendlyNameNative>
   <friendlyNameEnglish>Polish</friendlyNameEnglish>
@@ -6,59 +6,27 @@
   <credits>
     <li Class="CreditRecord_Role">
       <roleKey>Credit_Translator</roleKey>
-      <creditee>Oskar 'volf3n' Nowak [Leader]</creditee>
+      <creditee>piotrulos</creditee>
+    </li> 
+	<li Class="CreditRecord_Role">
+      <roleKey>Credit_Translator</roleKey>
+      <creditee>Nalthe [www.rimworldpolska.pl]</creditee>
     </li>
     <li Class="CreditRecord_Role">
       <roleKey>Credit_Translator</roleKey>
-      <creditee>Deralian</creditee>
+      <creditee>Kunegard [www.rimworldpolska.pl]</creditee>
     </li>
     <li Class="CreditRecord_Role">
       <roleKey>Credit_Translator</roleKey>
-      <creditee>t3m4</creditee>
-    </li>
-    <li Class="CreditRecord_Role">
-      <roleKey>Credit_Translator</roleKey>
-      <creditee>TralalAlf</creditee>
-    </li>
+      <creditee>westwinnd</creditee>
+    </li> 
     <li Class="CreditRecord_Role">
       <roleKey>Credit_Translator</roleKey>
       <creditee>maxdyner</creditee>
     </li>
-	<li Class="CreditRecord_Role">
+     <li Class="CreditRecord_Role">
       <roleKey>Credit_Translator</roleKey>
-      <creditee>Damian aka. Bucu</creditee>
-    </li>
-    <li Class="CreditRecord_Role">
-      <roleKey>Credit_Translator</roleKey>
-      <creditee>Contribution: GlobusGames</creditee>
-    </li>
-    <li Class="CreditRecord_Role">
-      <roleKey>Credit_Translator</roleKey>
-      <creditee>Contribution: John Fucking Rambo</creditee>
-    </li>
-    <li Class="CreditRecord_Role">
-      <roleKey>Credit_Translator</roleKey>
-      <creditee>Contribution: Mateusz Raczkiewicz</creditee>
-    </li>
-    <li Class="CreditRecord_Role">
-      <roleKey>Credit_Translator</roleKey>
-      <creditee>Contribution: Michał Hoffman</creditee>
-    </li>
-    <li Class="CreditRecord_Role">
-      <roleKey>Credit_Translator</roleKey>
-      <creditee>Contribution: Marcin WMP Janowski</creditee>
-    </li>
-    <li Class="CreditRecord_Role">
-      <roleKey>Credit_Translator</roleKey>
-      <creditee>Contribution: Karol Pieniący</creditee>
-    </li>
-    <li Class="CreditRecord_Role">
-      <roleKey>Credit_Translator</roleKey>
-      <creditee>Piotr '2piotrek' Chaniewski</creditee>   
-    </li>
-    <li Class="CreditRecord_Role">
-      <roleKey>Credit_Translator</roleKey>
-      <creditee>Mateusz 'Reco' Zaborski</creditee>   
-    </li>
+      <creditee>2piotrek</creditee>
+	</li>
   </credits>
 </LanguageInfo>

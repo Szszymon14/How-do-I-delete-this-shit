@@ -1,132 +1,256 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-	<CommandForbiddenDesc>Zabronione - koloniści nie będą z tego korzystać.</CommandForbiddenDesc>
-	<CommandNotForbiddenDesc>Dozwolone - koloniści mogą z tego korzystać.</CommandNotForbiddenDesc>
+  <!-- Forbid -->
+  <CommandForbid>Zabroń</CommandForbid>
+  <CommandForbiddenDesc>Zabronione - koloniści nie będą z tego korzystać.</CommandForbiddenDesc>
+  <CommandNotForbiddenDesc>Dozwolone - koloniści mogą z tego korzystać.</CommandNotForbiddenDesc>
 
   <!-- Power -->
   <CommandTogglePowerLabel>Przełącz zasilanie</CommandTogglePowerLabel>
   <CommandTogglePowerDesc>Włącza lub wyłącza zasilanie tej struktury.</CommandTogglePowerDesc>
   
-  <CommandDesignateTogglePowerLabel>Oznacz do przełączenia</CommandDesignateTogglePowerLabel>
-  <CommandDesignateTogglePowerDesc>Oznacz do włączenia lub wyłączenia przez kolonistę i czekan aż jeden z nich to zrobi</CommandDesignateTogglePowerDesc>
+  <CommandDesignateTogglePowerLabel>Oznacz do przełączenia zasilania</CommandDesignateTogglePowerLabel>
+  <CommandDesignateTogglePowerDesc>Oznacz do włączenia lub wyłączenia przez kolonistę i poczekaj, aż jeden z nich to zrobi.</CommandDesignateTogglePowerDesc>
 
-  <CommandTryReconnectLabel>Przełącz</CommandTryReconnectLabel>
-  <CommandTryReconnectDesc>Próbuje podłączyć się do innego gniazda zasilania w obrębie posiadanego zasięgu. Jest to przydatne, gdy przedmiot jest podłączony do gniazda bez zasilania, a niedaleko jest dostępne gniazdo z zasilaniem.</CommandTryReconnectDesc>
+  <CommandTryReconnectLabel>Podłącz</CommandTryReconnectLabel>
+  <CommandTryReconnectDesc>Spróbuj podłączyć się do innego gniazda zasilania w obrębie posiadanego zasięgu. Jest to przydatne, gdy przedmiot jest podłączony do gniazda bez zasilania, a niedaleko jest dostępne gniazdo z zasilaniem.</CommandTryReconnectDesc>
 
   <CommandGatherSpotToggleLabel>Miejsce zgromadzeń</CommandGatherSpotToggleLabel>
-  <CommandGatherSpotToggleDescActive>Aktywne - koloniści będą się gromadzić w koło tego obiektu.</CommandGatherSpotToggleDescActive>
-  <CommandGatherSpotToggleDescInactive>Nieaktywne - koloniści nie będą się gromadzić w koło tego obiektu.</CommandGatherSpotToggleDescInactive>
+  <CommandGatherSpotToggleDescActive>Aktywne - koloniści będą się gromadzić wokół tego obiektu.</CommandGatherSpotToggleDescActive>
+  <CommandGatherSpotToggleDescInactive>Nieaktywne - koloniści nie będą się gromadzić wokół tego obiektu.</CommandGatherSpotToggleDescInactive>
   
-	
-	
+  
+  <!-- Drafting -->
   <CommandDraftLabel>Służba</CommandDraftLabel>
   <CommandUndraftLabel>Zwolnij</CommandUndraftLabel>
-  <CommandToggleDraftDesc>Powołaj do służby wojskowej.\n\nKoloniści na służbie działają zgodnie z poleceniami i walczą. Nie będą pracować, jeść czy odpoczywać.</CommandToggleDraftDesc>
-  <IsIncapped>{0} jest niesprawny.</IsIncapped>
+  <CommandToggleDraftDesc>Powołaj do służby wojskowej.\n\nKoloniści na służbie działają zgodnie z poleceniami i walczą. Nie będą pracować, jeść ani odpoczywać.</CommandToggleDraftDesc>
+  <IsIncapped>{0} nie może chodzić.</IsIncapped>
 
+  <CommandFireAtWillLabel>Strzelaj do woli</CommandFireAtWillLabel>
+  <CommandFireAtWillDesc>Pozwolenie na oddawanie strzałów.\n\nKiedy wyłączone, ta postać nie będzie automatycznie strzelać do celów. Nie wpływa na walkę wręcz.</CommandFireAtWillDesc>
+
+  <CommandClearPrioritizedWork>Anuluj zadanie piorytetowe</CommandClearPrioritizedWork>
+  <CommandClearPrioritizedWorkDesc>Przerywa piorytetowe zadanie. Postać wróci do swoich zwyczajnych prac.</CommandClearPrioritizedWorkDesc>
   
   <CommandCancelConstructionLabel>Anuluj</CommandCancelConstructionLabel>
   <CommandCancelConstructionDesc>Anuluj budowę.</CommandCancelConstructionDesc>
 
   <CommandGetOutOfBedLabel>Wyjdź z łóżka</CommandGetOutOfBedLabel>
   <CommandGetOutOfBedDesc>Wyjdź z tego łóżka.</CommandGetOutOfBedDesc>
-  
+
   <CommandBedSetOwnerLabel>Wybierz właściciela</CommandBedSetOwnerLabel>
   <CommandBedSetOwnerDesc>Wybierz kolonistę, który ma być właścicielem tego łóżka.</CommandBedSetOwnerDesc>
-  <CommandGraveAssignColonistLabel>Przydziel koloniste</CommandGraveAssignColonistLabel>
+  <CommandGraveAssignColonistLabel>Przydziel kolonistę</CommandGraveAssignColonistLabel>
   <CommandGraveAssignColonistDesc>Pzydziel ten grób dla konkretnego kolonisty.</CommandGraveAssignColonistDesc>
-  <CommandGraveSetToUnassignedLabel>Pozostaw nieprzydzielony</CommandGraveSetToUnassignedLabel>
-  <CommandGraveSetToUnassignedDesc>Pozostaw ten grób aby był nieprzydzielony do nikogo.</CommandGraveSetToUnassignedDesc>
   <BuildingAssign>Przydziel</BuildingAssign>
-  <CommandBedSetForPrisonersLabel>Ustaw dla więźniów</CommandBedSetForPrisonersLabel>
+  <BuildingUnassign>Anuluj przydział</BuildingUnassign>
+  <CommandBedSetForPrisonersLabel>Dla więźniów</CommandBedSetForPrisonersLabel>
   <CommandBedSetForPrisonersDesc>Ustaw łóżka w tym pokoju do użytku więźniów.</CommandBedSetForPrisonersDesc>
-  <CommandBedSetForPrisonersFailOutdoors>Nie można ustawić zewnętrznych łóżek dla więźniów.</CommandBedSetForPrisonersFailOutdoors>
-  <CommandBedSetForColonistsLabel>Ustaw dla kolonistów</CommandBedSetForColonistsLabel>
-  <CommandBedSetForColonistsDesc>Ustaw łóżka w tym pokoju do użytku kolonistów.</CommandBedSetForColonistsDesc>
-  <CommandBedSetAsMedicalLabel>Ustaw jako łóżko szpitalne</CommandBedSetAsMedicalLabel>
-  <CommandBedSetAsMedicalDesc> Ustaw to łóżko do użytku medycznego.</CommandBedSetAsMedicalDesc>
-  <CommandBedSetAsNonMedicalLabel>Ustaw jako zwykłe łóżko</CommandBedSetAsNonMedicalLabel>
-  <CommandBedSetAsNonMedicalDesc> Po ustawieniu łóżka jako zwykłe, koloniści nie będą w nim leczeni.</CommandBedSetAsNonMedicalDesc>
+  <CommandBedSetForPrisonersFailOutdoors>Tylko łóżka znajdujące się w zamkniętej przestrzeni mogą być oznaczone dla więźniów.</CommandBedSetForPrisonersFailOutdoors>
+  <CommandBedSetAsMedicalLabel>Medyczne</CommandBedSetAsMedicalLabel>
+  <CommandBedSetAsMedicalDesc>Ustaw to łóżko do użytku medycznego.</CommandBedSetAsMedicalDesc>
   <TurningOnPrisonerBedWarning>Ustawienie obejmuje cały pokój (ponieważ więźniowie i koloniści nie mogą spać w jednym pokoju).\n\nNastępujący koloniści utracą swoje łóżka:</TurningOnPrisonerBedWarning>
   <TurningOffPrisonerBedWarning>Ustawienie obejmuje cały pokój (ponieważ więźniowie i koloniści nie mogą spać w jednym pokoju).\n\nNastępujący więźniowie utracą swoje łóżka:</TurningOffPrisonerBedWarning>
   <AreYouSure>Czy jesteś pewien?</AreYouSure>
-
+  
   <CommandDetonateLabel>Zdetonuj</CommandDetonateLabel>
   <CommandDetonateDesc>Rozpocznij odliczanie do detonacji.</CommandDetonateDesc>
-  
-  <CommandRenameZoneLabel>Zmień</CommandRenameZoneLabel>
-  <CommandRenameZoneDesc>Zmień nazwę obszaru.</CommandRenameZoneDesc>
-  
+
+  <CommandRenameZoneLabel>Zmień nazwę</CommandRenameZoneLabel>
+  <CommandRenameZoneDesc>Zmień nazwę tego obszaru.</CommandRenameZoneDesc>
+
   <CommandHideZoneLabel>Ukryj</CommandHideZoneLabel>
   <CommandUnhideZoneLabel>Pokaż</CommandUnhideZoneLabel>
   <CommandHideZoneDesc>Pokaż/ukryj ten obszar.</CommandHideZoneDesc>
-  
+
   <CommandDeleteZoneLabel>Usuń</CommandDeleteZoneLabel>
   <CommandDeleteZoneDesc>Usuń ten obszar.</CommandDeleteZoneDesc>
-  
+
   <CommandCopyZoneSettingsLabel>Kopiuj ustawienia</CommandCopyZoneSettingsLabel>
   <CommandCopyZoneSettingsDesc>Kopiuj ustawienia tego obszaru, żeby można bylo je wkleić do innego.</CommandCopyZoneSettingsDesc>
 
   <CommandPasteZoneSettingsLabel>Wklej ustawienia</CommandPasteZoneSettingsLabel>
   <CommandPasteZoneSettingsDesc>Nadpisz ustawienia tego obszaru ustawieniami skopiowanymi z innego obszaru.</CommandPasteZoneSettingsDesc>
 
-  <CommandAllowSow>Zabroń sadzenia</CommandAllowSow>
+  <CommandAllowSow>Zezwalaj na siew</CommandAllowSow>
   <CommandAllowSowDesc>Kiedy wyłączone, koloniści nie będą siać w tym obszarze. Ciągle będą mogli zbierać plony.</CommandAllowSowDesc>
- 
- <!-- Artillery -->
-  <CommandSetForceAttackTarget>Wyceluj ręcznie</CommandSetForceAttackTarget>
-  <CommandSetForceAttackTargetDesc>Wybierz cel, który będzie atakowany przez tą wieżyczkę tak długo, jak długo będzie on w zasięgu.</CommandSetForceAttackTargetDesc>
-  <CommandStopForceAttack>Włącz celowanie automatyczne</CommandStopForceAttack>
-  <CommandStopForceAttackDesc>Wyłączenie manualnego trybu celowania pozwala tej wieżyczce wybierać cele automatycznie.</CommandStopForceAttackDesc>
-  <CommandStopAttackFailNotForceAttacking>Brak trybu manualnego celowania.</CommandStopAttackFailNotForceAttacking>
-  <MessageTargetBeyondMaximumRange>Cel poza maks. zasięgiem.</MessageTargetBeyondMaximumRange>
-  <MessageTargetBelowMinimumRange>Cel poniżej min. zasięgu.</MessageTargetBelowMinimumRange>
-  
-  
+
+  <!-- Artillery -->
+  <CommandSetForceAttackTarget>Wybierz wymuszony cel</CommandSetForceAttackTarget>
+  <CommandSetForceAttackTargetDesc>Wybierz cel, który będzie atakowany przez tę wieżyczkę tak długo, jak będzie on w zasięgu.</CommandSetForceAttackTargetDesc>
+  <CommandStopForceAttack>Anuluj wymuszony cel</CommandStopForceAttack>
+  <CommandStopForceAttackDesc>Wieżyczka będzie wybierać cele po swojemu.</CommandStopForceAttackDesc>
+  <CommandStopAttackFailNotForceAttacking>Brak ustawionego celu.</CommandStopAttackFailNotForceAttacking>
+  <CommandExtractShell>Wyjmij pocisk</CommandExtractShell>
+  <CommandExtractShellDesc>Rozładowuje aktualny pocisk aby można było go zastąpić innym rodzajem amunicji.</CommandExtractShellDesc>
+  <CommandExtractShellFailNoShell>Brak załadowanego naboju.</CommandExtractShellFailNoShell> 
+  <MessageTargetBeyondMaximumRange>Cel poza maksymalnym zasięgiem.</MessageTargetBeyondMaximumRange>
+  <MessageTargetBelowMinimumRange>Cel poza minimalnym zasięgu.</MessageTargetBelowMinimumRange>
+  <MessageTurretWontFireBecauseHoldFire>Uwaga: Moździerz nie będzie strzelał ponieważ jest ustawione "Wstrzymaj ogień".</MessageTurretWontFireBecauseHoldFire>
+
   <!-- Ship computer core -->
   <CommandShipLaunch>Wystartuj</CommandShipLaunch>
   <CommandShipLaunchDesc>Rozpoczyna sekwencję startową statku z obecną konfiguracją.</CommandShipLaunchDesc>
   <CommandShipLaunchReport>Pokaż raport startu</CommandShipLaunchReport>
   <CommandShipLaunchReportDesc>Pokazuje raport o gotowości statku do startu.</CommandShipLaunchReportDesc>
-
+  <CommandShipStartup>Uruchom statek</CommandShipStartup>
+  <CommandShipStartupDesc>Wznów statek z hibernacji.</CommandShipStartupDesc>
 
   <!-- Pod -->
-  <CommandPodEject>Wyładuj</CommandPodEject>
+  <CommandPodEject>Wyładuj śpiącego</CommandPodEject>
   <CommandPodEjectDesc>Obudź kolonistę i każ mu wyjść.</CommandPodEjectDesc>
-  <CommandPodEjectFailEmpty>Brak pasażera.</CommandPodEjectFailEmpty>
+  <CommandPodEjectFailEmpty>Nie ma tam nikogo.</CommandPodEjectFailEmpty>
 
   <!-- Door -->
   <CommandToggleDoorForbid>Przejście zabronione</CommandToggleDoorForbid>
-  <CommandToggleDoorForbidDesc>Kiedy przejście jest zabronione koloniści i sojusznicy nie będa przez nie przechodzić. Nie ma to wpływu na zachowanie zwierząt i wrogów.</CommandToggleDoorForbidDesc>
+  <CommandToggleDoorForbidDesc>Kiedy drzwi są zabronione, koloniści i sojusznicy nie będą przez nie przechodzić. Nie ma to wpływu na zachowanie zwierząt i wrogów.</CommandToggleDoorForbidDesc>
   <CommandToggleDoorHoldOpen>Pozostaw otwarte</CommandToggleDoorHoldOpen>
-  <CommandToggleDoorHoldOpenDesc>Kiedy aktywne drzwi pozostaną otwarte.</CommandToggleDoorHoldOpenDesc>
-
+  <CommandToggleDoorHoldOpenDesc>Aktywne drzwi pozostaną otwarte.</CommandToggleDoorHoldOpenDesc>
 
   <!-- Temperature control -->
-  <CommandResetTemp>Przywróć domyślne.</CommandResetTemp>
-  <CommandResetTempDesc>Przywróć domyślną temperaturę.</CommandResetTempDesc>
-  <CommandRaiseTempDesc>Ustaw wyższą temperaturę.</CommandRaiseTempDesc>
-  <CommandLowerTempDesc>Ustaw niższą  temperaturę.</CommandLowerTempDesc>
+  <CommandResetTemp>Zresetuj.</CommandResetTemp>
+  <CommandResetTempDesc>Resetuje zadaną temperaturę do temperatury pokojowej.</CommandResetTempDesc>
+  <CommandRaiseTempDesc>Ustaw wyższą zadaną temperaturę.</CommandRaiseTempDesc>
+  <CommandLowerTempDesc>Ustaw niższą zadaną temperaturę.</CommandLowerTempDesc>
 
-  <!-- Art -->
-  <CommandInstall>Ustaw</CommandInstall>
-  <CommandInstallDesc>Ten przedmiot jest spakowany do transportu i przechowywania. Użyj funkcji ustaw aby móc z niego korzystać.</CommandInstallDesc>
-
+   <!-- Install/reinstall -->
+  <CommandInstall>Zamontuj</CommandInstall>
+  <CommandInstallDesc>Ten przedmiot jest spakowany do transportu i przechowywania. Użyj tej funkcji aby go postawić.</CommandInstallDesc>
+  <CommandReinstall>Przenieś do...</CommandReinstall>
+  <CommandReinstallDesc>Oznacza ten przedmiot do zdemontowania i zamontowania w innym miejscu.</CommandReinstallDesc>
+  
   <!-- Trade beacon -->
   <CommandMakeBeaconStockpileDesc>Tworzy składowisko pasujące kształtem do pola handlowego wokół nadajnika.</CommandMakeBeaconStockpileDesc>
   <CommandMakeBeaconStockpileLabel>Utwórz składowisko.</CommandMakeBeaconStockpileLabel>
- 
+
   <!-- Sun lamp -->
   <CommandSunLampMakeGrowingZoneDesc>Ustaw obszar pola uprawnego dookoła lampy, dokładnie pasującego do zasięgu padania światła.</CommandSunLampMakeGrowingZoneDesc>
   <CommandSunLampMakeGrowingZoneLabel>Utwórz pole uprawne</CommandSunLampMakeGrowingZoneLabel>
 
   <!-- Trap -->
   <CommandAutoRearm>Automatyczne uzbrajanie</CommandAutoRearm>
-  <CommandAutoRearmDesc>Jeżeli włączone, pułapka automatycznie uzbroi się ponownie</CommandAutoRearmDesc>
+  <CommandAutoRearmDesc>Jeżeli włączone, pułapka automatycznie uzbroi się ponownie.</CommandAutoRearmDesc>
   
   <!-- Animal control -->
-  <CommandReleaseAnimalsLabel>Spuść zwierzęta</CommandReleaseAnimalsLabel>
-  <CommandReleaseAnimalsDesc>Kiedy włączone zwierzęta zostaną wysłane do ataku na odległe cele. Kiedy wyłączone pozostaną i będą bronić swoje pana.</CommandReleaseAnimalsDesc>
+  <CommandReleaseAnimalsLabel>Wypuść zwierzęta</CommandReleaseAnimalsLabel>
+  <CommandReleaseAnimalsDesc>Kiedy włączone - zwierzęta zostaną wysłane do ataku na odległe cele. Kiedy wyłączone - pozostaną i będą bronić swojego pana.</CommandReleaseAnimalsDesc>
   
+  <!-- Squad attack -->
+  <CommandSquadAttack>Atakuj</CommandSquadAttack>
+  <CommandSquadAttackDesc>Każ kolonistom zaatakować wskazany cel.</CommandSquadAttackDesc>
+
+   <!-- Melee attack -->
+  <CommandMeleeAttack>Atakuj wręcz</CommandMeleeAttack>
+  <CommandMeleeAttackDesc>Każ kolonistom zaatakować cel używając tylko walki wręcz.</CommandMeleeAttackDesc>
+
+  <!-- Hold fire -->
+  <CommandHoldFire>Wstrzymaj ogień</CommandHoldFire>
+  <CommandHoldFireDesc>Zatrzymaj wszystkie ataki.</CommandHoldFireDesc>
+  
+  <!-- Select plant to grow -->
+  <CommandSelectPlantToGrowMulti>Wybierz roślinę do zasiania</CommandSelectPlantToGrowMulti>
+  <CommandSelectPlantToGrow>Roślina: {0}</CommandSelectPlantToGrow>
+  <CommandSelectPlantToGrowDesc>Określa, jaka roślina powinna tutaj rosnąć.</CommandSelectPlantToGrowDesc>
+ 
+ <!-- Build copy -->
+  <CommandBuildCopy>Stwórz kopię</CommandBuildCopy>
+  <CommandBuildCopyDesc>Stwórz kopię tej konstrukcji.</CommandBuildCopyDesc>
+ 
+  <!-- Form caravan -->
+  <CommandFormCaravan>Stwórz karawanę</CommandFormCaravan>
+  <CommandFormCaravanDesc>Uformuj grupę kolonistów, którzy będą podróżować do nowych obszarów. Zabiorą oni oznaczone zasoby i towarzyszące im zwierzęta, a następnie opuszczą obecny obszar i będą czekać na kolejne polecenia.</CommandFormCaravanDesc>
+
+  <!-- Reform caravan -->
+  <CommandReformCaravan>Zmień karawanę</CommandReformCaravan>
+  <CommandReformCaravanDesc>Zmień grupę kolonistów. Opuszczą oni obecny obszar i będą czekać na kolejne polecenia.</CommandReformCaravanDesc>
+  <CommandReformCaravanFailHostilePawns>Na obszarze nadal znajdują się wrogowie.</CommandReformCaravanFailHostilePawns>
+
+  <!-- Split caravan -->
+  <CommandSplitCaravan>Podziel</CommandSplitCaravan>
+  <CommandSplitCaravanDesc>Podziel tę karawanę na dwie części. Można je potem ponownie połączyć, dopóki znajdują się blisko siebie.</CommandSplitCaravanDesc>
+
+  <!-- Merge caravan -->
+  <CommandMergeCaravans>Połącz</CommandMergeCaravans>
+  <CommandMergeCaravansDesc>Połącz wybrane karawany.</CommandMergeCaravansDesc>
+  <CommandMergeCaravansFailCaravansNotSelected>Wybierz wszystkie karawany jakie mają zostać połączone. Muszą być blisko siebie.</CommandMergeCaravansFailCaravansNotSelected>
+
+  <!-- Settle -->
+  <CommandSettle>Osiedl się</CommandSettle>
+  <CommandSettleDesc>Osiedl się na tym obszarze. Twoi koloniści wkroczą na ten obszar i zaczną budować nowy dom.</CommandSettleDesc>
+  <CommandSettleFailAlreadyHaveBase>Twoja frakcja może mieć tylko jedną bazę.</CommandSettleFailAlreadyHaveBase>
+  <CommandSettleFailReachedMaximumNumberOfBases>Osiągnięto maksymalną ilość kolonii.</CommandSettleFailReachedMaximumNumberOfBases>
+  <CommandSettleFailNoColonists>Nie ma tu nikogo aby przejąć ten obszar.</CommandSettleFailNoColonists>
+  <CommandSettleFailEnemies>Na tym obszarze są wrogowie.</CommandSettleFailEnemies>
+
+  <!-- Abandon home -->
+  <CommandAbandonHome>Opuść</CommandAbandonHome>
+  <CommandAbandonHomeDesc>Opuść ten obszar. Stanie się on nieosiągalny i nie będziesz mógł tu już nigdy wrócić. Po opuszczeniu domu możesz polecić jednej z karawan, aby zasiedliła nowy obszar.</CommandAbandonHomeDesc>
+  <CommandAbandonHomeFailAllColonistsThere>Wszyscy twoi koloniści są tutaj.</CommandAbandonHomeFailAllColonistsThere>
+
+  <!-- Cancel forming caravan -->
+  <CommandCancelFormingCaravan>Anuluj tworzenie karawany</CommandCancelFormingCaravan>
+  <CommandCancelFormingCaravanDesc>Zakończ proces tworzenia karawany.</CommandCancelFormingCaravanDesc>
+
+  <!-- Show map -->
+  <CommandShowMap>Przybliż</CommandShowMap>
+  <CommandShowMapDesc>Przybliż ten obszar.</CommandShowMapDesc>
+
+  <!-- Trade -->
+  <CommandTrade>Handluj</CommandTrade>
+  <CommandTradeDesc>Handluj z tą frakcją.</CommandTradeDesc>
+  <CommandTradeFailNoNegotiator>Nie posiadasz żadnego przytomnego negocjatora.</CommandTradeFailNoNegotiator>
+
+  <!-- Fulfill request -->
+  <CommandFulfillTradeOffer>Wypełnij warunki oferty</CommandFulfillTradeOffer>
+  <CommandFulfillTradeOfferDesc>Spełnij warunki zawarte w prośbie, aby odebrać nagrodę.</CommandFulfillTradeOfferDesc>
+  <CommandFulfillTradeOfferFailInsufficient>Twoja karawana musi mieć {0}, aby spełnić wartunki oferty.</CommandFulfillTradeOfferFailInsufficient>
+  <CommandFulfillTradeOfferConfirm>Zaoferować {0} w zamian za {1}?</CommandFulfillTradeOfferConfirm>
+  
+  <!-- Take off -->
+  <CommandTakeOff>Opuść planetę</CommandTakeOff>
+  <CommandTakeOffDesc>Wejdź na pokład statku i opuść planetę.</CommandTakeOffDesc>
+  <CommandTakeOffConfirmation>Czy jesteś pewien, że chcesz wystartować statek?\n\nWszystkie osoby z tego obszaru opuszczą planetę. Pozostali pozostaną w tyle.</CommandTakeOffConfirmation>
+
+  <!-- Set target fuel level -->
+  <CommandSetTargetFuelLevel>Oznacz docelowy poziom paliwa</CommandSetTargetFuelLevel>
+  <CommandSetTargetFuelLevelDesc>Oznacz docelowy poziom paliwa. Koloniści będą się starali uzupełniać je do tego poziomu.</CommandSetTargetFuelLevelDesc>
+
+  <!-- Cancel load -->
+  <CommandCancelLoad>Anuluj załadunek</CommandCancelLoad>
+  <CommandCancelLoadDesc>Przerwij ładowanie przedmiotów lub ludzi i usuń wszystko już załadowane.</CommandCancelLoadDesc>
+
+  <!-- Launch group -->
+  <CommandLaunchGroup>Wystrzel grupę</CommandLaunchGroup>
+  <CommandLaunchGroupDesc>Inicjalizuje docelowy proces wystrzału grupy kapsuł transportowych. Następny krok to wybranie celu. Kapsuły będą razem lecieć i wspólnie wylądują.</CommandLaunchGroupDesc>
+  <CommandLaunchGroupFailNotConnectedToFuelingPort>Niektóre kapsuły transportowe w tej grupie nie są połączone z portem tankującym.</CommandLaunchGroupFailNotConnectedToFuelingPort>
+  <CommandLaunchGroupFailNoFuel>Niektóre wyrzutnie kapsuł w tej grupie nie mają paliwa.</CommandLaunchGroupFailNoFuel>
+  <CommandLaunchGroupFailUnderRoof>Niektóre wyrzutnie kapsuł znajdują się pod dachem.</CommandLaunchGroupFailUnderRoof>
+
+  <!-- Load transporter -->
+  <CommandLoadTransporter>Załaduj grupę kapsuł {0}</CommandLoadTransporter>
+  <CommandLoadTransporterDesc>Określa wybrane kapsuły transportowe jako grupę. Otwiera menu załadunku, w którym możesz zdecydować, kto i co zostanie załadowane.</CommandLoadTransporterDesc>
+  <CommandLoadTransporterFailNotConnectedToFuelingPort>Kapsuła transportowa nie jest połączona z portem tankującym.</CommandLoadTransporterFailNotConnectedToFuelingPort>
+  <CommandLoadTransporterFailNoFuel>Wyrzutnia kapsuł nie ma paliwa.</CommandLoadTransporterFailNoFuel>
+
+  <!-- Select previous transporter -->
+  <CommandSelectPreviousTransporter>Wybierz poprzednią kapsułę w grupie</CommandSelectPreviousTransporter>
+  <CommandSelectPreviousTransporterDesc>Wybierz poprzednią kapsułę w tej grupie.</CommandSelectPreviousTransporterDesc>
+
+  <!-- Select all transporters -->
+  <CommandSelectAllTransporters>Wybierz grupę kapsuł</CommandSelectAllTransporters>
+  <CommandSelectAllTransportersDesc>Wybierz wszystkie kapsuły w tej grupie.</CommandSelectAllTransportersDesc>
+
+  <!-- Select next transporter -->
+  <CommandSelectNextTransporter>Wybierz następną kapsułę w grupie</CommandSelectNextTransporter>
+  <CommandSelectNextTransporterDesc>Wybierz następną kapsułę w tej grupie.</CommandSelectNextTransporterDesc>
+  
+  <!-- Vent -->
+  <CommandDesignateOpenCloseVentLabel>Oznacz jako otwarte/zamknięte</CommandDesignateOpenCloseVentLabel>
+  <CommandDesignateOpenCloseVentDesc>Oznacz ten otwór jako otwarty lub zamknięty. Kolonista wkrótce przyjdzie, aby wykonać to zadanie.</CommandDesignateOpenCloseVentDesc>
+ 
+  <!-- Remove waypoint -->
+  <CommandRemoveWaypointLabel>Usuń</CommandRemoveWaypointLabel>
+  <CommandRemoveWaypointDesc>Usuń ten punkt orientacyjny.</CommandRemoveWaypointDesc>
+
 </LanguageData>

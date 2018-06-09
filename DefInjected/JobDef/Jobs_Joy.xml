@@ -1,23 +1,32 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
-	
+
   <!-- Meditative -->
-	<Skygaze.reportString>Podziwia chmury.</Skygaze.reportString>
-	<Meditate.reportString>Medytuje.</Meditate.reportString>
-	<Pray.reportString>Modli się.</Pray.reportString>
-	<GoForWalk.reportString>Idzie na spacer.</GoForWalk.reportString>
-	<BuildSnowman.reportString>Buduje bałwana.</BuildSnowman.reportString>
-	<VisitGrave.reportString>Odwiedza grób.</VisitGrave.reportString>
-	
+  
+  <Skygaze.reportString>patrzy w chmury.</Skygaze.reportString>
+  <Meditate.reportString>medytuje.</Meditate.reportString>
+  <Pray.reportString>modli się.</Pray.reportString>
+  <GoForWalk.reportString>idzie na spacer.</GoForWalk.reportString>  
+  <BuildSnowman.reportString>lepi bałwana.</BuildSnowman.reportString>
+  <VisitGrave.reportString>odwiedza grób.</VisitGrave.reportString>
+  <ViewArt.reportString>podziwia sztukę.</ViewArt.reportString>
+  
+
   <!-- Social -->
-	<SocialRelax.reportString>Rozmawia z kimś.</SocialRelax.reportString>
+  
+  <SocialRelax.reportString>odpręża się społecznie.</SocialRelax.reportString>
+  <VisitSickPawn.reportString>pociesza TargetA.</VisitSickPawn.reportString>
+
 
   <!-- Building interaction -->
-	<PlayHorseshoes.reportString>Gra w podkowy.</PlayHorseshoes.reportString>
-	<PlayChess.reportString>Gra w szachy.</PlayChess.reportString>
-	<PlayBilliards.reportString>Gra w bilarda.</PlayBilliards.reportString>
-	<WatchTelevision.reportString>Ogląda film.</WatchTelevision.reportString>
-	<UseTelescope.reportString>Uzywa teleskopu.</UseTelescope.reportString>
-	
-	
+
+  <PlayHorseshoes.reportString>gra w podkowy.</PlayHorseshoes.reportString>
+  <PlayHoopstone.reportString>gra w kamienie.</PlayHoopstone.reportString>
+  <PlayChess.reportString>gra w szachy.</PlayChess.reportString>
+  <PlayBilliards.reportString>gra w bilarda.</PlayBilliards.reportString>
+  <PlayPoker.reportString>gra w pokera.</PlayPoker.reportString> 
+  <WatchTelevision.reportString>ogląda telewizję.</WatchTelevision.reportString>
+  <UseTelescope.reportString>używa teleskopu.</UseTelescope.reportString>
+
+  
 </LanguageData>

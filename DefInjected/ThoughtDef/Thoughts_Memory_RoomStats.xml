@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AteInImpressiveDiningRoom.stages.3.label>przyzwoita jadalnia</AteInImpressiveDiningRoom.stages.3.label>
+  <AteInImpressiveDiningRoom.stages.3.description>Zjadłem posiłek w przyzwoitej jadalni.</AteInImpressiveDiningRoom.stages.3.description>
+  <AteInImpressiveDiningRoom.stages.4.label>dość imponująca jadalnia</AteInImpressiveDiningRoom.stages.4.label>
+  <AteInImpressiveDiningRoom.stages.4.description>Zjadłem posiłek w dość imponującej jadalni.</AteInImpressiveDiningRoom.stages.4.description>
+  <AteInImpressiveDiningRoom.stages.5.label>imponująca jadalnia</AteInImpressiveDiningRoom.stages.5.label>
+  <AteInImpressiveDiningRoom.stages.5.description>Zjadłem posiłek w imponującej jadalni.</AteInImpressiveDiningRoom.stages.5.description>
+  <AteInImpressiveDiningRoom.stages.6.label>bardzo imponująca jadalnia</AteInImpressiveDiningRoom.stages.6.label>
+  <AteInImpressiveDiningRoom.stages.6.description>Zjadłem posiłek w bardzo imponującej jadalni.</AteInImpressiveDiningRoom.stages.6.description>
+  <AteInImpressiveDiningRoom.stages.7.label>ekstremalnie imponująca jadalnia</AteInImpressiveDiningRoom.stages.7.label>
+  <AteInImpressiveDiningRoom.stages.7.description>Zjadłem posiłek w ekstremalnie imponującej jadalni. Mógłbym zostać tu na zawsze.</AteInImpressiveDiningRoom.stages.7.description>
+  <AteInImpressiveDiningRoom.stages.8.label>niewiarygodnie imponująca jadalnia</AteInImpressiveDiningRoom.stages.8.label>
+  <AteInImpressiveDiningRoom.stages.8.description>Zjadłem posiłek w niewiarygodnie imponującej jadalni. Mógłbym zostać tu na zawsze.</AteInImpressiveDiningRoom.stages.8.description>
+  <AteInImpressiveDiningRoom.stages.9.label>cudowna jadalnia</AteInImpressiveDiningRoom.stages.9.label>
+  <AteInImpressiveDiningRoom.stages.9.description>Zjadłem posiłek w cudownej jadalni. Mógłbym zostać tu na zawsze.</AteInImpressiveDiningRoom.stages.9.description>
+
+  <JoyActivityInImpressiveRecRoom.stages.3.label>przyzwoity pokój rekreacyjny</JoyActivityInImpressiveRecRoom.stages.3.label>
+  <JoyActivityInImpressiveRecRoom.stages.3.description>Dobrze się bawiłem w przyzwoitym pokoju rekreacyjnym.</JoyActivityInImpressiveRecRoom.stages.3.description>
+  <JoyActivityInImpressiveRecRoom.stages.4.label>dość imponujący pokój rekreacyjny</JoyActivityInImpressiveRecRoom.stages.4.label>
+  <JoyActivityInImpressiveRecRoom.stages.4.description>Dobrze się bawiłem w miłym pokoju rekreacyjnym.</JoyActivityInImpressiveRecRoom.stages.4.description>
+  <JoyActivityInImpressiveRecRoom.stages.5.label>imponujący pokój rekreacyjny</JoyActivityInImpressiveRecRoom.stages.5.label>
+  <JoyActivityInImpressiveRecRoom.stages.5.description>Świetnie się bawiłem w imponującym pokoju rekreacyjnym.</JoyActivityInImpressiveRecRoom.stages.5.description>
+  <JoyActivityInImpressiveRecRoom.stages.6.label>bardzo imponujący pokój rekreacyjny</JoyActivityInImpressiveRecRoom.stages.6.label>
+  <JoyActivityInImpressiveRecRoom.stages.6.description>Świetnie się bawiłem w bardzo imponującym pokoju rekreacyjnym.</JoyActivityInImpressiveRecRoom.stages.6.description>
+  <JoyActivityInImpressiveRecRoom.stages.7.label>ekstremalnie imponujący pokój rekreacyjny</JoyActivityInImpressiveRecRoom.stages.7.label>
+  <JoyActivityInImpressiveRecRoom.stages.7.description>Świetnie się bawiłem w ekstremalnie imponującym pokoju rekreacyjnym. Mógłbym zostać tu na zawsze.</JoyActivityInImpressiveRecRoom.stages.7.description>
+  <JoyActivityInImpressiveRecRoom.stages.8.label>niewiarygodnie imponujący pokój rekreacyjny</JoyActivityInImpressiveRecRoom.stages.8.label>
+  <JoyActivityInImpressiveRecRoom.stages.8.description>Świetnie się bawiłem w niewiarygodnie imponującym pokoju rekreacyjnym. Mógłbym zostać tu na zawsze.</JoyActivityInImpressiveRecRoom.stages.8.description>
+  <JoyActivityInImpressiveRecRoom.stages.9.label>cudowny pokój rekreacyjny</JoyActivityInImpressiveRecRoom.stages.9.label>
+  <JoyActivityInImpressiveRecRoom.stages.9.description>Świetnie się bawiłem w cudownym pokoju rekreacyjnym. Mógłbym zostać tu na zawsze.</JoyActivityInImpressiveRecRoom.stages.9.description>
+
+  <SleptInBedroom.stages.0.label>okropna sypialnia</SleptInBedroom.stages.0.label>
+  <SleptInBedroom.stages.0.description>Moja sypialnia to okropne miejsce.</SleptInBedroom.stages.0.description>
+  <SleptInBedroom.stages.3.label>przyzwoita sypialnia</SleptInBedroom.stages.3.label>
+  <SleptInBedroom.stages.3.description>Moja sypialnia jest bardzo ciekawa. Lubię ją.</SleptInBedroom.stages.3.description>
+  <SleptInBedroom.stages.4.label>nieco imponująca sypialnia</SleptInBedroom.stages.4.label>
+  <SleptInBedroom.stages.4.description>Moja sypialnia jest dość imponująca. Lubię ją.</SleptInBedroom.stages.4.description>
+  <SleptInBedroom.stages.5.label>imponująca sypialnia</SleptInBedroom.stages.5.label>
+  <SleptInBedroom.stages.5.description>Moja sypialnia jest imponująca. I love it!</SleptInBedroom.stages.5.description>
+  <SleptInBedroom.stages.6.label>bardzo imponująca sypialnia</SleptInBedroom.stages.6.label>
+  <SleptInBedroom.stages.6.description>Moja sypialnia jest bardzo imponująca. To najlepsze możliwe miejsce!</SleptInBedroom.stages.6.description>
+  <SleptInBedroom.stages.7.label>ekstremalnie imponująca sypialnia</SleptInBedroom.stages.7.label>
+  <SleptInBedroom.stages.7.description>Moja sypialnia jest ekstremalnie imponująca. To najlepsze możliwe miejsce!</SleptInBedroom.stages.7.description>
+  <SleptInBedroom.stages.8.label>niewiarygodnie imponująca sypialnia</SleptInBedroom.stages.8.label>
+  <SleptInBedroom.stages.8.description>Moja sypialnia jest niewiarygodnie imponująca. To najlepsze możliwe miejsce!</SleptInBedroom.stages.8.description>
+  <SleptInBedroom.stages.9.label>niezwykle imponująca sypialnia</SleptInBedroom.stages.9.label>
+  <SleptInBedroom.stages.9.description>Moja sypialnia jest najlepszym miejscem, jakie można sobie wyobrazić. Jest niesamowita.</SleptInBedroom.stages.9.description>
+
+  <SleptInBarracks.stages.0.label>straszne baraki</SleptInBarracks.stages.0.label>
+  <SleptInBarracks.stages.0.description>Moje baraki to straszne miejsce - i muszę je dzielić z innymi!</SleptInBarracks.stages.0.description>
+  <SleptInBarracks.stages.1.label>odpychające baraki</SleptInBarracks.stages.1.label>
+  <SleptInBarracks.stages.1.description>Mieszkam w odpychających barakach, i to z innymi ludźmi.</SleptInBarracks.stages.1.description>
+  <SleptInBarracks.stages.2.label>przeciętne baraki</SleptInBarracks.stages.2.label>
+  <SleptInBarracks.stages.2.description>Moje baraki są przeciętne, i dodatkowo muszę je dzielić z innymi. Naprawdę mi się to nie podoba.</SleptInBarracks.stages.2.description>
+  <SleptInBarracks.stages.3.label>przyzwoite baraki</SleptInBarracks.stages.3.label>
+  <SleptInBarracks.stages.3.description>Moje baraki są przyzwoite, ale naprawdę nie lubię dzielić przestrzeni z innymi.</SleptInBarracks.stages.3.description>
+  <SleptInBarracks.stages.4.label>nieco imponujące baraki</SleptInBarracks.stages.4.label>
+  <SleptInBarracks.stages.4.description>Moje baraki to miłe miejsce. Ale naprawdę nie lubię mieszkać z innymi w jednym pokoju.</SleptInBarracks.stages.4.description>
+  <SleptInBarracks.stages.5.label>imponujące baraki</SleptInBarracks.stages.5.label>
+  <SleptInBarracks.stages.5.description>Moje baraki są imponujące. To beznadziejne, że muszę się nimi dzielić.</SleptInBarracks.stages.5.description>
+  <SleptInBarracks.stages.6.label>bardzo imponujące baraki</SleptInBarracks.stages.6.label>
+  <SleptInBarracks.stages.6.description>Moje baraki są bardzo imponujące. Denerwuje mnie, że muszę je dzielić.</SleptInBarracks.stages.6.description>
+  <SleptInBarracks.stages.7.label>ekstremalnie imponujące baraki</SleptInBarracks.stages.7.label>
+  <SleptInBarracks.stages.7.description>Moje baraki są ekstremalnie imponujące. To prawie wynagradza to, że muszę je dzielić z innymi.</SleptInBarracks.stages.7.description>
+  <SleptInBarracks.stages.8.label>niewiarygodnie wspaniałe baraki</SleptInBarracks.stages.8.label>
+  <SleptInBarracks.stages.8.description>Moje baraki są niewiarygodnie imponujące. Nawet nie przeszkadza mi to, że muszę je dzielić z innymi.</SleptInBarracks.stages.8.description>
+  <SleptInBarracks.stages.9.label>niezwykle imponujące baraki</SleptInBarracks.stages.9.label>
+  <SleptInBarracks.stages.9.description>Moje baraki to najlepsze miejsce, jakie można sobie wyobrazić. Sprawiają, że czuję się szczęśliwszy, nawet jeśli muszę je dzielić z innymi.</SleptInBarracks.stages.9.description>
+
+  
+</LanguageData>

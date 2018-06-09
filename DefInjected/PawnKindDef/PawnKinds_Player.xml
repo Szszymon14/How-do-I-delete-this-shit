@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Colonist.label>kolonista</Colonist.label>
+  <Colonist.labelPlural>koloniści</Colonist.labelPlural>
+
+  <Tribesperson.label>członek</Tribesperson.label>
+  <Tribesperson.labelPlural>członkowie</Tribesperson.labelPlural>
+
+
+</LanguageData>

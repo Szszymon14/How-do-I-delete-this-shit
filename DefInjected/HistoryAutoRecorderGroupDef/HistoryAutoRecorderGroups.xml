@@ -1,13 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
-
-    <Wealth.label>Majątek</Wealth.label>
-	<Wealth.graphLabelY>Ilość</Wealth.graphLabelY>
-
-    <Population.label>Populacja</Population.label>
-	<Population.graphLabelY>Kolonistów</Population.graphLabelY>
-  
-    <ColonistMood.label>Lojalność</ColonistMood.label>
-	<ColonistMood.graphLabelY>Procent</ColonistMood.graphLabelY>
-
+    
+  <Wealth.label>majątek</Wealth.label> 
+  <Population.label>populacja</Population.label>
+  <ColonistMood.label>nastrój kolonisty</ColonistMood.label>
+ 
+ 
 </LanguageData>

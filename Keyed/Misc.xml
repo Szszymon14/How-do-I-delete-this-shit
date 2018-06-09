@@ -1,61 +1,75 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
-  
+
   <Autosaving>Autozapis</Autosaving>
-  
-  <GameStartDialog>Wasza trójka obudziła się z hibernacji na dźwięk syren i rozrywanego metalu. Cudem udało Wam się dostać do kapsuł ratunkowych, nim statek został rozerwany na strzępy.\n\nJakiś czas później wylądowaliście na tej nieznanej planecie.\n\nWraz ze spadaniem na ziemię kolejnych fragmentów rozbitego statku, zaczęliście tworzyć plany, jak przetrwać.</GameStartDialog>
-
+  <GameStartDialog>Wasza trójka obudziła się z hibernacji na dźwięk syren i rozrywanego metalu. Cudem udało wam się dostać do kapsuł ratunkowych, zanim statek został rozerwany na strzępy.\n\nJakiś czas później wylądowaliście na tej nieznanej planecie.\n\nWraz ze spadaniem na ziemię kolejnych fragmentów rozbitego statku, zaczęliście tworzyć plany, jak przetrwać.</GameStartDialog>
   <Colony>Kolonia</Colony>
-
-  <ChangeLanguageFromMainMenu>Język można zmienić tylko z głównego menu gry.</ChangeLanguageFromMainMenu>
-  
+  <ChangeLanguageFromMainMenu>Język można zmienić tylko w głównym menu gry.</ChangeLanguageFromMainMenu>
   <AndLower>i</AndLower>
   <DisabledLower>wykluczone</DisabledLower>
-  
-  <CloseButton>Zamknij</CloseButton>
 
+  
   <VersionIndicator>Wersja {0}</VersionIndicator>
   <DevelopmentBuildLower>wersja deweloperska</DevelopmentBuildLower>
-  <CompiledOn>Kompilacja {0}</CompiledOn>
+  <CompiledOn>Skompilowano {0}</CompiledOn>
   <LoggedIntoSteamAs>Zalogowany do Steam jako {0}</LoggedIntoSteamAs>
 
+  <!-- General-use words -->
+  <Yes>Tak</Yes>
+  <No>Nie</No>
+  <min>min</min>
+  <max>max</max>
+  <chance>szansa</chance>
+  <context>kontekst</context>
+  <multiplier>mnożnik</multiplier>
+  <damage>obrażenia</damage>
+  <radius>zasięg</radius>
+  <durationDays>czas trwania (dni)</durationDays>
+  <intervalDays>przerwa (dni)</intervalDays>
+  <repeat>powtórz</repeat>
+  <default>domyślne</default>
+  <distance>dystans</distance>
 
   <!-- Content generation-->
   
   <MeatLabel>Mięso ({0})</MeatLabel>
-  <MeatDesc>Surowe mięso ({0}).</MeatDesc>
+  <MeatDesc>Surowe mięso. Może być składnikiem posiłków</MeatDesc>
 
   <LeatherLabel>Skóra ({0})</LeatherLabel>
-  <LeatherDesc>Skóra zrobiona z {0}.</LeatherDesc>
-  
-  <CorpseLabel>Zwłoki {0}</CorpseLabel>
-  <CorpseDesc>Martwe ciało {0}.</CorpseDesc>
-  <DeadLabel>{0} (ciało)</DeadLabel>
+  <LeatherDesc>Skóra, wykorzystywana do tworzenia ubrań.</LeatherDesc>
+
+  <CorpseLabel>Zwłoki ({0})</CorpseLabel>
+  <CorpseDesc>{0} - Martwe ciało.</CorpseDesc>
+  <DeadLabel>{0} (martwy)</DeadLabel>
 
   <RoughStoneTerrainLabel>surowy {0}</RoughStoneTerrainLabel>
-  <RoughStoneTerrainDesc>Surowy, naturalny {0} .</RoughStoneTerrainDesc>
+  <RoughStoneTerrainDesc>Surowa, naturalna podłoga - {0}.</RoughStoneTerrainDesc>
   <RoughHewnStoneTerrainLabel>ociosany {0}</RoughHewnStoneTerrainLabel>
-  <RoughHewnStoneTerrainDesc>Podłogę pokrywa grubo ciosany {0} .</RoughHewnStoneTerrainDesc>
+  <RoughHewnStoneTerrainDesc>Podłogę pokrywa grubo ciosany {0}.</RoughHewnStoneTerrainDesc>
   <SmoothStoneTerrainLabel>wygładzony {0}</SmoothStoneTerrainLabel>
-  <SmoothStoneTerrainDesc>Podłoga z wygładzonego {0}</SmoothStoneTerrainDesc>
+  <SmoothStoneTerrainDesc>wygładzona podłoga - {0}.</SmoothStoneTerrainDesc>
 
   <BlueprintLabelExtra> (plan)</BlueprintLabelExtra>
   <FrameLabelExtra> (budowa)</FrameLabelExtra>
- 
- 
-   <!-- For things made of stuff, e.g. "Stone bed" -->
-  <!-- 0 is the nameAsStuff property under stuffProps and 1 is the label -->
-  <ThingMadeOfStuffLabel>{0} {1}</ThingMadeOfStuffLabel>
 
-  <!-- To express ownership. -->
-  <!-- For example Jack's Bedroom -->
-  <SomeonesSomething>{0} {1}</SomeonesSomething>
+
+  <!-- For things made of stuff, e.g. "Stone bed" -->
+  <!-- 0 is the stuffAdjective property under stuffProps and 1 is the label -->
+  <ThingMadeOfStuffLabel>{1} {0}</ThingMadeOfStuffLabel>
+
+  <SomeonesRoom>{1} należy do {0}</SomeonesRoom>
+  <CouplesRoom>{2} należy do {0} i {1}</CouplesRoom>
   
   <VariousLabel>(różne)</VariousLabel>
-  
+
   <!-- History events -->
-  <ColonistDied>Kolonista umarł</ColonistDied>
+  <ColonistDied>Kolonista umarł.</ColonistDied>
   
-  
+  <!-- Rotation -->
+  <North>Północ</North>
+  <South>Południe</South>
+  <West>Zachód</West>
+  <East>Wschód</East>
+
   
 </LanguageData>

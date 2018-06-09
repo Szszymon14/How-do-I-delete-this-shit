@@ -1,23 +1,16 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
   <!-- glow -->
   <Dark>Ciemno</Dark>
-  <Lit>Szaro</Lit>
-  <LitBrightly>Jasno</LitBrightly>
-    
-  <!-- diet type -->
-  <NeverEats>Nigdy nie je</NeverEats>
-  <Omnivorous>Wszystkożerny</Omnivorous>
-  <Herbivorous>Roślinożerny</Herbivorous>
-  <Carnivorous>Mięsożerny</Carnivorous>
-  <Dendrovorous>Drzewożerny</Dendrovorous>
-  
+  <Lit>Jasno</Lit>
+  <LitBrightly>Bardzo jasno</LitBrightly>
+
   <!-- history upload pref -->
-  <Unspecified>Nie zdecydowano</Unspecified>
+  <Unspecified>Niezdecydowano</Unspecified>
   <Always>Zezwalaj</Always>
   <Never>Nie zezwalaj</Never>
-  
+
   <!-- Price types -->
   <PriceTypeVeryCheap>bardzo tanio</PriceTypeVeryCheap>
   <PriceTypeCheap>tanio</PriceTypeCheap>
@@ -25,28 +18,47 @@
   <PriceTypeExpensive>drogo</PriceTypeExpensive>
   <PriceTypeExorbitant>skrajnie drogo</PriceTypeExorbitant>
 
+  <!-- Storage priority labels -->
+  <StoragePriorityUnstored>nieposortowany</StoragePriorityUnstored>
+  <StoragePriorityLow>niski</StoragePriorityLow>
+  <StoragePriorityNormal>normalny</StoragePriorityNormal>
+  <StoragePriorityPreferred>preferowany</StoragePriorityPreferred>
+  <StoragePriorityImportant>ważny</StoragePriorityImportant>
+  <StoragePriorityCritical>krytyczny</StoragePriorityCritical>
+
+  <!-- Food type flags -->
+  <FoodTypeFlags_VegetableOrFruit>warzywa</FoodTypeFlags_VegetableOrFruit>
+  <FoodTypeFlags_Meat>surowe mięso</FoodTypeFlags_Meat>
+  <FoodTypeFlags_Corpse>ciała</FoodTypeFlags_Corpse>
+  <FoodTypeFlags_Seed>nasiona</FoodTypeFlags_Seed>
+  <FoodTypeFlags_AnimalProduct>produkty zwierzęce</FoodTypeFlags_AnimalProduct>
+  <FoodTypeFlags_Plant>żywe rośliny</FoodTypeFlags_Plant>
+  <FoodTypeFlags_Tree>żywe drzewa</FoodTypeFlags_Tree>
+  <FoodTypeFlags_Meal>posiłki</FoodTypeFlags_Meal>
+  <FoodTypeFlags_Processed>przetworzone jedzenie</FoodTypeFlags_Processed>
+  <FoodTypeFlags_Liquor>alkohol</FoodTypeFlags_Liquor>
+  <FoodTypeFlags_Kibble>pasza</FoodTypeFlags_Kibble>
+
   <!-- Quality category -->
-  <QualityCategory_Awful>bardzo zły</QualityCategory_Awful>
-  <QualityCategory_Shoddy>tandetny</QualityCategory_Shoddy>
-  <QualityCategory_Poor>słaby</QualityCategory_Poor>
-  <QualityCategory_Normal>zwykły</QualityCategory_Normal>
+  <QualityCategory_Awful>tandetny</QualityCategory_Awful>
+  <QualityCategory_Shoddy>bardzo zły</QualityCategory_Shoddy>
+  <QualityCategory_Poor>zły</QualityCategory_Poor>
+  <QualityCategory_Normal>normalny</QualityCategory_Normal>
   <QualityCategory_Good>dobry</QualityCategory_Good>
   <QualityCategory_Superior>bardzo dobry</QualityCategory_Superior>
   <QualityCategory_Excellent>wspaniały</QualityCategory_Excellent>
   <QualityCategory_Masterwork>arcydzieło</QualityCategory_Masterwork>
   <QualityCategory_Legendary>legendarny</QualityCategory_Legendary>
-
-  <QualityCategoryShort_Awful>bzł</QualityCategoryShort_Awful>
-  <QualityCategoryShort_Shoddy>tndt</QualityCategoryShort_Shoddy>
-  <QualityCategoryShort_Poor>słb</QualityCategoryShort_Poor>
-  <QualityCategoryShort_Normal>zwyk</QualityCategoryShort_Normal>
+  <QualityCategoryShort_Awful>tndt</QualityCategoryShort_Awful>
+  <QualityCategoryShort_Shoddy>bzły</QualityCategoryShort_Shoddy>
+  <QualityCategoryShort_Poor>zły</QualityCategoryShort_Poor>
+  <QualityCategoryShort_Normal>norm</QualityCategoryShort_Normal>
   <QualityCategoryShort_Good>db</QualityCategoryShort_Good>
   <QualityCategoryShort_Superior>bdb</QualityCategoryShort_Superior>
   <QualityCategoryShort_Excellent>wsp</QualityCategoryShort_Excellent>
   <QualityCategoryShort_Masterwork>arc</QualityCategoryShort_Masterwork>
   <QualityCategoryShort_Legendary>legd</QualityCategoryShort_Legendary>
-  
- 
+   
   <!-- Hunger -->
   <HungerLevel_Starving>Głoduje</HungerLevel_Starving>
   <HungerLevel_UrgentlyHungry>Bardzo głodny</HungerLevel_UrgentlyHungry>
@@ -58,34 +70,81 @@
   <HungerLevel_VeryTired>Bardzo zmęczony</HungerLevel_VeryTired>
   <HungerLevel_Tired>Zmęczony</HungerLevel_Tired>
   <HungerLevel_Rested>Wypoczęty</HungerLevel_Rested>
-  
+
   <!-- Hilliness -->
-  <Hilliness_Flat>Płaski</Hilliness_Flat>
-  <Hilliness_SmallHills>Niskie wzgórza</Hilliness_SmallHills>
-  <Hilliness_LargeHills>Wysokie wzórza</Hilliness_LargeHills>
-  <Hilliness_Mountainous>Góry</Hilliness_Mountainous>
+  <Hilliness_Flat>równiny</Hilliness_Flat>
+  <Hilliness_SmallHills>niziny</Hilliness_SmallHills>
+  <Hilliness_LargeHills>wyżyny</Hilliness_LargeHills>
+  <Hilliness_Mountainous>góry</Hilliness_Mountainous>
+  <Hilliness_Impassable>nieprzekraczalne</Hilliness_Impassable>
   
   <!-- Steam workshop interaction -->
-  <WorkshopInteractStage_CreatingItem>Tworzy</WorkshopInteractStage_CreatingItem>
-  <WorkshopInteractStage_SubmittingItem>Zatwierdza</WorkshopInteractStage_SubmittingItem>
-  <EItemUpdateStatus_k_EItemUpdateStatusInvalid>Niepoprawnie</EItemUpdateStatus_k_EItemUpdateStatusInvalid>
-  <EItemUpdateStatus_k_EItemUpdateStatusPreparingConfig>Przygotowuje dane konfiguracyjne</EItemUpdateStatus_k_EItemUpdateStatusPreparingConfig>
-  <EItemUpdateStatus_k_EItemUpdateStatusPreparingContent>Przygotowuje pliki z zawartością</EItemUpdateStatus_k_EItemUpdateStatusPreparingContent>
-  <EItemUpdateStatus_k_EItemUpdateStatusUploadingContent>Wgrywa zawartość</EItemUpdateStatus_k_EItemUpdateStatusUploadingContent>
-  <EItemUpdateStatus_k_EItemUpdateStatusUploadingPreviewFile>Wgrywa plik podglądu</EItemUpdateStatus_k_EItemUpdateStatusUploadingPreviewFile>
-  <EItemUpdateStatus_k_EItemUpdateStatusCommittingChanges>Zatwierdza zmiany</EItemUpdateStatus_k_EItemUpdateStatusCommittingChanges>
+  <WorkshopInteractStage_CreatingItem>Tworzenie</WorkshopInteractStage_CreatingItem>
+  <WorkshopInteractStage_SubmittingItem>Wysyłanie</WorkshopInteractStage_SubmittingItem>
+  <EItemUpdateStatus_k_EItemUpdateStatusInvalid>Nieprawidłowe</EItemUpdateStatus_k_EItemUpdateStatusInvalid>
+  <EItemUpdateStatus_k_EItemUpdateStatusPreparingConfig>Przygotowywanie danych konfiguracji</EItemUpdateStatus_k_EItemUpdateStatusPreparingConfig>
+  <EItemUpdateStatus_k_EItemUpdateStatusPreparingContent>Przygotowywanie plików z zawartością</EItemUpdateStatus_k_EItemUpdateStatusPreparingContent>
+  <EItemUpdateStatus_k_EItemUpdateStatusUploadingContent>Wysyłanie zawartości</EItemUpdateStatus_k_EItemUpdateStatusUploadingContent>
+  <EItemUpdateStatus_k_EItemUpdateStatusUploadingPreviewFile>Wysyłanie pliku podglądu</EItemUpdateStatus_k_EItemUpdateStatusUploadingPreviewFile>
+  <EItemUpdateStatus_k_EItemUpdateStatusCommittingChanges>Zatwierdzanie zmian</EItemUpdateStatus_k_EItemUpdateStatusCommittingChanges>
 
-  <!-- Trainable intelligence -->
-  <TrainableIntelligence_None>Brak</TrainableIntelligence_None>
-  <TrainableIntelligence_Simple>Prosta</TrainableIntelligence_Simple>
-  <TrainableIntelligence_Intermediate>Średnia</TrainableIntelligence_Intermediate>
-  <TrainableIntelligence_Advanced>Zaawansowana</TrainableIntelligence_Advanced>
+  <!-- Mod sources -->
+  <ContentSource_LocalFolder>folder lokalny</ContentSource_LocalFolder>
+  <ContentSource_SteamWorkshop>Warsztat Steam</ContentSource_SteamWorkshop>
 
   <!-- Medical care category -->
   <MedicalCareCategory_NoCare>Bez pomocy medycznej</MedicalCareCategory_NoCare>
-  <MedicalCareCategory_NoMeds>Opieka lekarska ale bez leków</MedicalCareCategory_NoMeds>
-  <MedicalCareCategory_HerbalOrWorse>Ziołowe leki, albo gorsze</MedicalCareCategory_HerbalOrWorse>
-  <MedicalCareCategory_NormalOrWorse>Zwykłe leki, albo gorsze</MedicalCareCategory_NormalOrWorse>
-  <MedicalCareCategory_Best>Leki najlepszej jakości</MedicalCareCategory_Best>
+  <MedicalCareCategory_NoMeds>Opieka lekarska, ale bez leków</MedicalCareCategory_NoMeds>
+  <MedicalCareCategory_HerbalOrWorse>Ziołowe leki albo gorsze</MedicalCareCategory_HerbalOrWorse>
+  <MedicalCareCategory_NormalOrWorse>Zwykłe leki albo gorsze</MedicalCareCategory_NormalOrWorse>
+  <MedicalCareCategory_Best>Leki najwyższej jakości</MedicalCareCategory_Best>
 
+  <!-- Hostility response mode -->
+  <HostilityResponseMode_Ignore>Ignoruj</HostilityResponseMode_Ignore>
+  <HostilityResponseMode_Attack>Atakuj</HostilityResponseMode_Attack>
+  <HostilityResponseMode_Flee>Uciekaj</HostilityResponseMode_Flee>
+  
+  <!-- HediffGrowthMode -->
+  <HediffGrowthMode_Growing>rośnie</HediffGrowthMode_Growing>
+  <HediffGrowthMode_Stable>stabilny</HediffGrowthMode_Stable>
+  <HediffGrowthMode_Remission>remisja</HediffGrowthMode_Remission>
+
+  <!-- TechLevel -->
+  <TechLevel_Animal>zwierzęcy</TechLevel_Animal>
+  <TechLevel_Neolithic>neolityczny</TechLevel_Neolithic>
+  <TechLevel_Medieval>średniowieczny</TechLevel_Medieval>
+  <TechLevel_Industrial>przemysłowy</TechLevel_Industrial>
+  <TechLevel_Spacer>kosmiczny</TechLevel_Spacer>
+  <TechLevel_Ultra>ultra</TechLevel_Ultra>
+  <TechLevel_Transcendent>ponadzmysłowy</TechLevel_Transcendent>
+
+  <!-- Player pawns arrive method -->
+  <PlayerPawnsArriveMethod_Standing>Stoją</PlayerPawnsArriveMethod_Standing>
+  <PlayerPawnsArriveMethod_DropPods>Kapsuły ratunkowe</PlayerPawnsArriveMethod_DropPods>
+
+  <!-- Pawn generation context -->
+  <PawnGenerationContext_All>wszystkie postacie</PawnGenerationContext_All>
+  <PawnGenerationContext_PlayerStarter>początkowe postacie gracza</PawnGenerationContext_PlayerStarter>
+  <PawnGenerationContext_NonPlayer>NPC</PawnGenerationContext_NonPlayer>
+  
+  <!-- Animal name display mode -->
+  <ShowAnimalNames>Imiona zwierząt</ShowAnimalNames>
+  <AnimalNameDisplayMode_TameNamed>Oswojone (nazwane)</AnimalNameDisplayMode_TameNamed>
+  <AnimalNameDisplayMode_TameAll>Oswojone (wszystkie)</AnimalNameDisplayMode_TameAll>
+  
+  <!-- Temperature -->
+  <Celsius>Celsjusz</Celsius>
+  <Fahrenheit>Fahrenheit</Fahrenheit>
+  <Kelvin>Kelwin</Kelvin>
+
+  <!-- Direction8Way -->
+  <Direction8Way_North_Short>N</Direction8Way_North_Short>
+  <Direction8Way_NorthEast_Short>NE</Direction8Way_NorthEast_Short>
+  <Direction8Way_East_Short>E</Direction8Way_East_Short>
+  <Direction8Way_SouthEast_Short>SE</Direction8Way_SouthEast_Short>
+  <Direction8Way_South_Short>S</Direction8Way_South_Short>
+  <Direction8Way_SouthWest_Short>SW</Direction8Way_SouthWest_Short>
+  <Direction8Way_West_Short>W</Direction8Way_West_Short>
+  <Direction8Way_NorthWest_Short>NW</Direction8Way_NorthWest_Short>
+  
 </LanguageData>
